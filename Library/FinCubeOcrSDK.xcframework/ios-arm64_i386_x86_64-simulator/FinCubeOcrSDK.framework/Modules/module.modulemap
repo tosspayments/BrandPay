@@ -1,0 +1,6 @@
+framework module FinCubeOcrSDK {
+  umbrella header "FinCubeOcrSDK.h"
+
+  export *
+  module * { export * }
+}

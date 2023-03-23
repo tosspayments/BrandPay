@@ -1,0 +1,4 @@
+framework module BrandPayBase {
+  header "BrandPayBase-Swift.h"
+  requires objc
+}

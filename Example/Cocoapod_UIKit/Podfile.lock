@@ -1,0 +1,21 @@
+PODS:
+  - BrandPay/Biometric (1.0.0):
+    - BrandPay/Core
+  - BrandPay/Core (1.0.0)
+  - BrandPay/OCR (1.0.0):
+    - BrandPay/Core
+
+DEPENDENCIES:
+  - BrandPay/Biometric (from `../../`)
+  - BrandPay/OCR (from `../../`)
+
+EXTERNAL SOURCES:
+  BrandPay:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  BrandPay: 17bc72c0c828cc09827524a8de46b5e4fd540bdd
+
+PODFILE CHECKSUM: 0e759b5bd23c81899198367a71640d6280fa3688
+
+COCOAPODS: 1.11.3

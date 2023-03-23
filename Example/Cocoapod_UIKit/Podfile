@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'BrandPayBiometricExample' do
+  use_frameworks!
+  pod 'BrandPay/Biometric', :path => '../../'
+end
+
+target 'BrandPayOCRExample' do
+  use_frameworks!
+  pod 'BrandPay/OCR', :path => '../../'
+end
+
+target 'BrandPayWebExample' do
+  use_frameworks!
+  pod 'BrandPay/Biometric', :path => '../../'
+  pod 'BrandPay/OCR', :path => '../../'
+end

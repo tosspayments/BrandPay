@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16E9023E371F62C967BAFCAF /* Pods_BrandPayWebExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B9EC83C629F14BB221C865 /* Pods_BrandPayWebExample.framework */; };
+		6A2153A4274FAC9300BF0C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2153A3274FAC9300BF0C6B /* AppDelegate.swift */; };
+		6A2153A8274FAC9300BF0C6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2153A7274FAC9300BF0C6B /* ViewController.swift */; };
+		6A2153AB274FAC9300BF0C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2153A9274FAC9300BF0C6B /* Main.storyboard */; };
+		6A2153AD274FAC9400BF0C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2153AC274FAC9400BF0C6B /* Assets.xcassets */; };
+		6A2153B0274FAC9400BF0C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2153AE274FAC9400BF0C6B /* LaunchScreen.storyboard */; };
+		6A2153BC274FACF000BF0C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2153BB274FACF000BF0C6B /* AppDelegate.swift */; };
+		6A2153C0274FACF000BF0C6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2153BF274FACF000BF0C6B /* ViewController.swift */; };
+		6A2153C3274FACF000BF0C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2153C1274FACF000BF0C6B /* Main.storyboard */; };
+		6A2153C5274FACF000BF0C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2153C4274FACF000BF0C6B /* Assets.xcassets */; };
+		6A2153C8274FACF000BF0C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2153C6274FACF000BF0C6B /* LaunchScreen.storyboard */; };
+		6A68E006278C099C00F42086 /* tosspayment_20220106.flk in Resources */ = {isa = PBXBuildFile; fileRef = 6A68E005278C099C00F42086 /* tosspayment_20220106.flk */; };
+		6A6A3B88275103D900021E50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3B87275103D900021E50 /* AppDelegate.swift */; };
+		6A6A3B8C275103D900021E50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3B8B275103D900021E50 /* ViewController.swift */; };
+		6A6A3B8F275103D900021E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6A3B8D275103D900021E50 /* Main.storyboard */; };
+		6A6A3B91275103DA00021E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6A3B90275103DA00021E50 /* Assets.xcassets */; };
+		6A6A3B94275103DA00021E50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6A3B92275103DA00021E50 /* LaunchScreen.storyboard */; };
+		F2F77FDBF46B33637B98162C /* Pods_BrandPayBiometricExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9F55A1953283202341783D /* Pods_BrandPayBiometricExample.framework */; };
+		F7BD4E1B3BFDD3D46055B743 /* Pods_BrandPayOCRExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8308E608F0D0D662FD38A9E9 /* Pods_BrandPayOCRExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10C9AD3857A118FF831D39B2 /* Pods_ConnectPayUIExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectPayUIExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7624C4AFD788756D47C9F2 /* Pods-BrandPayOCRExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandPayOCRExample.debug.xcconfig"; path = "Target Support Files/Pods-BrandPayOCRExample/Pods-BrandPayOCRExample.debug.xcconfig"; sourceTree = "<group>"; };
+		1D077B4723CE304765E5CAAC /* Pods-ConnectPayBiometricExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectPayBiometricExample.debug.xcconfig"; path = "Target Support Files/Pods-ConnectPayBiometricExample/Pods-ConnectPayBiometricExample.debug.xcconfig"; sourceTree = "<group>"; };
+		238CD5ECA9F82042D109CD3B /* Pods-BrandPayWebExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandPayWebExample.debug.xcconfig"; path = "Target Support Files/Pods-BrandPayWebExample/Pods-BrandPayWebExample.debug.xcconfig"; sourceTree = "<group>"; };
+		44AC8CDEC2B5D493C938ADBF /* Pods-BrandPayWebExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandPayWebExample.release.xcconfig"; path = "Target Support Files/Pods-BrandPayWebExample/Pods-BrandPayWebExample.release.xcconfig"; sourceTree = "<group>"; };
+		4622D8F1EED4DDAE59088965 /* Pods-ConnectPayBiometricExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectPayBiometricExample.release.xcconfig"; path = "Target Support Files/Pods-ConnectPayBiometricExample/Pods-ConnectPayBiometricExample.release.xcconfig"; sourceTree = "<group>"; };
+		55848B35861B676F8E7153E8 /* Pods-ConnectPayUIExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectPayUIExample.release.xcconfig"; path = "Target Support Files/Pods-ConnectPayUIExample/Pods-ConnectPayUIExample.release.xcconfig"; sourceTree = "<group>"; };
+		5B19EFE1E9F537A8FCBCB78A /* Pods-ConnectPayExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectPayExample.debug.xcconfig"; path = "Target Support Files/Pods-ConnectPayExample/Pods-ConnectPayExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6A2153A1274FAC9300BF0C6B /* BrandPayBiometricExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandPayBiometricExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2153A3274FAC9300BF0C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A2153A7274FAC9300BF0C6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A2153AA274FAC9300BF0C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A2153AC274FAC9400BF0C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A2153AF274FAC9400BF0C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A2153B1274FAC9400BF0C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A2153B9274FACF000BF0C6B /* BrandPayOCRExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandPayOCRExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2153BB274FACF000BF0C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A2153BF274FACF000BF0C6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A2153C2274FACF000BF0C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A2153C4274FACF000BF0C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A2153C7274FACF000BF0C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A2153C9274FACF000BF0C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A68E005278C099C00F42086 /* tosspayment_20220106.flk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tosspayment_20220106.flk; sourceTree = "<group>"; };
+		6A6A3B85275103D900021E50 /* BrandPayWebExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandPayWebExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6A3B87275103D900021E50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A6A3B8B275103D900021E50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A6A3B8E275103D900021E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A6A3B90275103DA00021E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A6A3B93275103DA00021E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A6A3B95275103DA00021E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE64EBD29D3391000840995 /* BrandPayExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BrandPayExample.entitlements; sourceTree = "<group>"; };
+		6AE64EBE29D3391000840995 /* BrandPayExampleRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BrandPayExampleRelease.entitlements; sourceTree = "<group>"; };
+		781881A2DA2973D32442F0C8 /* Pods-ConnectPayExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectPayExample.release.xcconfig"; path = "Target Support Files/Pods-ConnectPayExample/Pods-ConnectPayExample.release.xcconfig"; sourceTree = "<group>"; };
+		7C3E6E54CAA56C9B9AE723EF /* Pods-ConnectPayOCRExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectPayOCRExample.debug.xcconfig"; path = "Target Support Files/Pods-ConnectPayOCRExample/Pods-ConnectPayOCRExample.debug.xcconfig"; sourceTree = "<group>"; };
+		7C9F55A1953283202341783D /* Pods_BrandPayBiometricExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrandPayBiometricExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8308E608F0D0D662FD38A9E9 /* Pods_BrandPayOCRExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrandPayOCRExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4CFFE3BDB7FC84282AF8FA /* Pods-BrandPayBiometricExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandPayBiometricExample.release.xcconfig"; path = "Target Support Files/Pods-BrandPayBiometricExample/Pods-BrandPayBiometricExample.release.xcconfig"; sourceTree = "<group>"; };
+		9B8ED9EF2CCE091A52EC0458 /* Pods-ConnectPayWebInterfaceExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectPayWebInterfaceExample.release.xcconfig"; path = "Target Support Files/Pods-ConnectPayWebInterfaceExample/Pods-ConnectPayWebInterfaceExample.release.xcconfig"; sourceTree = "<group>"; };
+		B0BAED3D7FF8268F43A8FFD5 /* Pods-BrandPayBiometricExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandPayBiometricExample.debug.xcconfig"; path = "Target Support Files/Pods-BrandPayBiometricExample/Pods-BrandPayBiometricExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B178C0E3DE9ABC831C08D158 /* Pods-ConnectPayUIExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectPayUIExample.debug.xcconfig"; path = "Target Support Files/Pods-ConnectPayUIExample/Pods-ConnectPayUIExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B970CC1770C1326A37C60119 /* Pods-ConnectPayWebInterfaceExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectPayWebInterfaceExample.debug.xcconfig"; path = "Target Support Files/Pods-ConnectPayWebInterfaceExample/Pods-ConnectPayWebInterfaceExample.debug.xcconfig"; sourceTree = "<group>"; };
+		E35EABFEE7D3852783D88C70 /* Pods-ConnectPayOCRExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectPayOCRExample.release.xcconfig"; path = "Target Support Files/Pods-ConnectPayOCRExample/Pods-ConnectPayOCRExample.release.xcconfig"; sourceTree = "<group>"; };
+		E9B9EC83C629F14BB221C865 /* Pods_BrandPayWebExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrandPayWebExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50FC5941599E2D958070DB8 /* Pods-BrandPayOCRExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandPayOCRExample.release.xcconfig"; path = "Target Support Files/Pods-BrandPayOCRExample/Pods-BrandPayOCRExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A21539E274FAC9300BF0C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F77FDBF46B33637B98162C /* Pods_BrandPayBiometricExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2153B6274FACF000BF0C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BD4E1B3BFDD3D46055B743 /* Pods_BrandPayOCRExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6A3B82275103D900021E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E9023E371F62C967BAFCAF /* Pods_BrandPayWebExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52110F820823644F9D34FDAD = {
+			isa = PBXGroup;
+			children = (
+				6AE64EBD29D3391000840995 /* BrandPayExample.entitlements */,
+				6AE64EBE29D3391000840995 /* BrandPayExampleRelease.entitlements */,
+				6A2153A2274FAC9300BF0C6B /* BrandPayBiometricExample */,
+				6A2153BA274FACF000BF0C6B /* BrandPayOCRExample */,
+				6A6A3B86275103D900021E50 /* BrandPayWebExample */,
+				5CBBA131E9A89245FE2655B8 /* Frameworks */,
+				E8011D86784E313F1ED25637 /* Products */,
+				62999B08D50043E4323C33B9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5CBBA131E9A89245FE2655B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10C9AD3857A118FF831D39B2 /* Pods_ConnectPayUIExample.framework */,
+				7C9F55A1953283202341783D /* Pods_BrandPayBiometricExample.framework */,
+				8308E608F0D0D662FD38A9E9 /* Pods_BrandPayOCRExample.framework */,
+				E9B9EC83C629F14BB221C865 /* Pods_BrandPayWebExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62999B08D50043E4323C33B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B19EFE1E9F537A8FCBCB78A /* Pods-ConnectPayExample.debug.xcconfig */,
+				781881A2DA2973D32442F0C8 /* Pods-ConnectPayExample.release.xcconfig */,
+				1D077B4723CE304765E5CAAC /* Pods-ConnectPayBiometricExample.debug.xcconfig */,
+				4622D8F1EED4DDAE59088965 /* Pods-ConnectPayBiometricExample.release.xcconfig */,
+				7C3E6E54CAA56C9B9AE723EF /* Pods-ConnectPayOCRExample.debug.xcconfig */,
+				E35EABFEE7D3852783D88C70 /* Pods-ConnectPayOCRExample.release.xcconfig */,
+				B178C0E3DE9ABC831C08D158 /* Pods-ConnectPayUIExample.debug.xcconfig */,
+				55848B35861B676F8E7153E8 /* Pods-ConnectPayUIExample.release.xcconfig */,
+				B970CC1770C1326A37C60119 /* Pods-ConnectPayWebInterfaceExample.debug.xcconfig */,
+				9B8ED9EF2CCE091A52EC0458 /* Pods-ConnectPayWebInterfaceExample.release.xcconfig */,
+				B0BAED3D7FF8268F43A8FFD5 /* Pods-BrandPayBiometricExample.debug.xcconfig */,
+				8D4CFFE3BDB7FC84282AF8FA /* Pods-BrandPayBiometricExample.release.xcconfig */,
+				1A7624C4AFD788756D47C9F2 /* Pods-BrandPayOCRExample.debug.xcconfig */,
+				F50FC5941599E2D958070DB8 /* Pods-BrandPayOCRExample.release.xcconfig */,
+				238CD5ECA9F82042D109CD3B /* Pods-BrandPayWebExample.debug.xcconfig */,
+				44AC8CDEC2B5D493C938ADBF /* Pods-BrandPayWebExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A2153A2274FAC9300BF0C6B /* BrandPayBiometricExample */ = {
+			isa = PBXGroup;
+			children = (
+				6A2153A3274FAC9300BF0C6B /* AppDelegate.swift */,
+				6A2153A7274FAC9300BF0C6B /* ViewController.swift */,
+				6A2153A9274FAC9300BF0C6B /* Main.storyboard */,
+				6A2153AC274FAC9400BF0C6B /* Assets.xcassets */,
+				6A2153AE274FAC9400BF0C6B /* LaunchScreen.storyboard */,
+				6A2153B1274FAC9400BF0C6B /* Info.plist */,
+			);
+			path = BrandPayBiometricExample;
+			sourceTree = "<group>";
+		};
+		6A2153BA274FACF000BF0C6B /* BrandPayOCRExample */ = {
+			isa = PBXGroup;
+			children = (
+				6A2153BB274FACF000BF0C6B /* AppDelegate.swift */,
+				6A2153BF274FACF000BF0C6B /* ViewController.swift */,
+				6A2153C1274FACF000BF0C6B /* Main.storyboard */,
+				6A2153C4274FACF000BF0C6B /* Assets.xcassets */,
+				6A2153C6274FACF000BF0C6B /* LaunchScreen.storyboard */,
+				6A2153C9274FACF000BF0C6B /* Info.plist */,
+			);
+			path = BrandPayOCRExample;
+			sourceTree = "<group>";
+		};
+		6A68DFFE278C097600F42086 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6A68E005278C099C00F42086 /* tosspayment_20220106.flk */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6A6A3B86275103D900021E50 /* BrandPayWebExample */ = {
+			isa = PBXGroup;
+			children = (
+				6A68DFFE278C097600F42086 /* Assets */,
+				6A6A3B87275103D900021E50 /* AppDelegate.swift */,
+				6A6A3B8B275103D900021E50 /* ViewController.swift */,
+				6A6A3B8D275103D900021E50 /* Main.storyboard */,
+				6A6A3B90275103DA00021E50 /* Assets.xcassets */,
+				6A6A3B92275103DA00021E50 /* LaunchScreen.storyboard */,
+				6A6A3B95275103DA00021E50 /* Info.plist */,
+			);
+			path = BrandPayWebExample;
+			sourceTree = "<group>";
+		};
+		E8011D86784E313F1ED25637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A2153A1274FAC9300BF0C6B /* BrandPayBiometricExample.app */,
+				6A2153B9274FACF000BF0C6B /* BrandPayOCRExample.app */,
+				6A6A3B85275103D900021E50 /* BrandPayWebExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A2153A0274FAC9300BF0C6B /* BrandPayBiometricExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2153B4274FAC9400BF0C6B /* Build configuration list for PBXNativeTarget "BrandPayBiometricExample" */;
+			buildPhases = (
+				1512B60AA2DCF208C83F72B7 /* [CP] Check Pods Manifest.lock */,
+				6A21539D274FAC9300BF0C6B /* Sources */,
+				6A21539E274FAC9300BF0C6B /* Frameworks */,
+				6A21539F274FAC9300BF0C6B /* Resources */,
+				40B60055851A6EE91FC2775D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrandPayBiometricExample;
+			productName = ConnectPayBiometricExample;
+			productReference = 6A2153A1274FAC9300BF0C6B /* BrandPayBiometricExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A2153B8274FACF000BF0C6B /* BrandPayOCRExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2153CA274FACF000BF0C6B /* Build configuration list for PBXNativeTarget "BrandPayOCRExample" */;
+			buildPhases = (
+				75F16E6EFD48EEED5BBE3728 /* [CP] Check Pods Manifest.lock */,
+				6A2153B5274FACF000BF0C6B /* Sources */,
+				6A2153B6274FACF000BF0C6B /* Frameworks */,
+				6A2153B7274FACF000BF0C6B /* Resources */,
+				293CED11823EA8E670C49FDE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrandPayOCRExample;
+			productName = ConnectPayOCRExample;
+			productReference = 6A2153B9274FACF000BF0C6B /* BrandPayOCRExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A6A3B84275103D900021E50 /* BrandPayWebExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A6A3B96275103DA00021E50 /* Build configuration list for PBXNativeTarget "BrandPayWebExample" */;
+			buildPhases = (
+				8E5C0792EF3FA908E767A6A6 /* [CP] Check Pods Manifest.lock */,
+				6A6A3B81275103D900021E50 /* Sources */,
+				6A6A3B82275103D900021E50 /* Frameworks */,
+				6A6A3B83275103D900021E50 /* Resources */,
+				1BD0DD09FC5493B50516F53A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrandPayWebExample;
+			productName = ConnectPayWebInterface;
+			productReference = 6A6A3B85275103D900021E50 /* BrandPayWebExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33794B6D0529FAE32E415730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1310;
+				ORGANIZATIONNAME = com.tosspayments;
+				TargetAttributes = {
+					6A2153A0274FAC9300BF0C6B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6A2153B8274FACF000BF0C6B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6A6A3B84275103D900021E50 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 0539A39FC992F221E300D9C1 /* Build configuration list for PBXProject "BrandPayExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 52110F820823644F9D34FDAD;
+			productRefGroup = E8011D86784E313F1ED25637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A2153A0274FAC9300BF0C6B /* BrandPayBiometricExample */,
+				6A2153B8274FACF000BF0C6B /* BrandPayOCRExample */,
+				6A6A3B84275103D900021E50 /* BrandPayWebExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A21539F274FAC9300BF0C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2153B0274FAC9400BF0C6B /* LaunchScreen.storyboard in Resources */,
+				6A2153AD274FAC9400BF0C6B /* Assets.xcassets in Resources */,
+				6A2153AB274FAC9300BF0C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2153B7274FACF000BF0C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2153C8274FACF000BF0C6B /* LaunchScreen.storyboard in Resources */,
+				6A2153C5274FACF000BF0C6B /* Assets.xcassets in Resources */,
+				6A2153C3274FACF000BF0C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6A3B83275103D900021E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6A3B94275103DA00021E50 /* LaunchScreen.storyboard in Resources */,
+				6A68E006278C099C00F42086 /* tosspayment_20220106.flk in Resources */,
+				6A6A3B91275103DA00021E50 /* Assets.xcassets in Resources */,
+				6A6A3B8F275103D900021E50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1512B60AA2DCF208C83F72B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrandPayBiometricExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BD0DD09FC5493B50516F53A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrandPayWebExample/Pods-BrandPayWebExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrandPayWebExample/Pods-BrandPayWebExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrandPayWebExample/Pods-BrandPayWebExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		293CED11823EA8E670C49FDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrandPayOCRExample/Pods-BrandPayOCRExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrandPayOCRExample/Pods-BrandPayOCRExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrandPayOCRExample/Pods-BrandPayOCRExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40B60055851A6EE91FC2775D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrandPayBiometricExample/Pods-BrandPayBiometricExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrandPayBiometricExample/Pods-BrandPayBiometricExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrandPayBiometricExample/Pods-BrandPayBiometricExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F16E6EFD48EEED5BBE3728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrandPayOCRExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E5C0792EF3FA908E767A6A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrandPayWebExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A21539D274FAC9300BF0C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2153A8274FAC9300BF0C6B /* ViewController.swift in Sources */,
+				6A2153A4274FAC9300BF0C6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2153B5274FACF000BF0C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2153C0274FACF000BF0C6B /* ViewController.swift in Sources */,
+				6A2153BC274FACF000BF0C6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6A3B81275103D900021E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6A3B8C275103D900021E50 /* ViewController.swift in Sources */,
+				6A6A3B88275103D900021E50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A2153A9274FAC9300BF0C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A2153AA274FAC9300BF0C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A2153AE274FAC9400BF0C6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A2153AF274FAC9400BF0C6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6A2153C1274FACF000BF0C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A2153C2274FACF000BF0C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A2153C6274FACF000BF0C6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A2153C7274FACF000BF0C6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6A6A3B8D275103D900021E50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A6A3B8E275103D900021E50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A6A3B92275103DA00021E50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A6A3B93275103DA00021E50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		154E9FDB3ED062CD055774FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A2153B2274FAC9400BF0C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0BAED3D7FF8268F43A8FFD5 /* Pods-BrandPayBiometricExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 73c0ccf;
+				DEVELOPMENT_TEAM = NXA4356DUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrandPayBiometricExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tosspayments.ConnectPayBiometricExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6A2153B3274FAC9400BF0C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4CFFE3BDB7FC84282AF8FA /* Pods-BrandPayBiometricExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 73c0ccf;
+				DEVELOPMENT_TEAM = NXA4356DUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrandPayBiometricExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tosspayments.ConnectPayBiometricExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6A2153CB274FACF000BF0C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7624C4AFD788756D47C9F2 /* Pods-BrandPayOCRExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 73c0ccf;
+				DEVELOPMENT_TEAM = NXA4356DUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrandPayOCRExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tosspayments.ConnectPayOCRExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6A2153CC274FACF000BF0C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50FC5941599E2D958070DB8 /* Pods-BrandPayOCRExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 73c0ccf;
+				DEVELOPMENT_TEAM = NXA4356DUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrandPayOCRExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tosspayments.ConnectPayOCRExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6A6A3B97275103DA00021E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238CD5ECA9F82042D109CD3B /* Pods-BrandPayWebExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = BrandPayExample.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "73c0ccf-debug";
+				DEVELOPMENT_TEAM = NXA4356DUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrandPayWebExample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Test";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = TEST;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tosspayments.ConnectPaySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A6A3B98275103DA00021E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AC8CDEC2B5D493C938ADBF /* Pods-BrandPayWebExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = BrandPayExampleRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "73c0ccf-debug";
+				DEVELOPMENT_TEAM = NXA4356DUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrandPayWebExample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Test";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = TEST;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tosspayments.ConnectPaySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C70594DD51B21D4192A36C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0539A39FC992F221E300D9C1 /* Build configuration list for PBXProject "BrandPayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E9FDB3ED062CD055774FD /* Debug */,
+				C70594DD51B21D4192A36C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A2153B4274FAC9400BF0C6B /* Build configuration list for PBXNativeTarget "BrandPayBiometricExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2153B2274FAC9400BF0C6B /* Debug */,
+				6A2153B3274FAC9400BF0C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A2153CA274FACF000BF0C6B /* Build configuration list for PBXNativeTarget "BrandPayOCRExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2153CB274FACF000BF0C6B /* Debug */,
+				6A2153CC274FACF000BF0C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A6A3B96275103DA00021E50 /* Build configuration list for PBXNativeTarget "BrandPayWebExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6A3B97275103DA00021E50 /* Debug */,
+				6A6A3B98275103DA00021E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33794B6D0529FAE32E415730 /* Project object */;
+}

@@ -1,0 +1,4 @@
+framework module OCRInterface {
+  header "OCRInterface-Swift.h"
+  requires objc
+}

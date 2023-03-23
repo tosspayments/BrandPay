@@ -1,0 +1,4 @@
+framework module BiometricInterface {
+  header "BiometricInterface-Swift.h"
+  requires objc
+}
