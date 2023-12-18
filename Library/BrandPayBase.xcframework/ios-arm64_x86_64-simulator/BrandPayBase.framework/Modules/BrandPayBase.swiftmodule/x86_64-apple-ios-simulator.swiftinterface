@@ -8,22 +8,24 @@ import Security
 import Swift
 import UIKit
 import WebKit
-public protocol AppBridgeType {
+@objc public protocol AppBridgeType {
   typealias Controller = BrandPayBase.WebViewControllerType
   typealias SuccessHandler = ([Swift.String]) -> Swift.Void
   typealias FailureHandler = (Swift.Error) -> Swift.Void
-  var name: Swift.String { get }
-  var skipQuotes: Swift.Bool { get }
-  func checkAllowDomainAndHandle(with controller: Self.Controller, message: WebKit.WKScriptMessage)
-  func handle(controller: Self.Controller, body: [Swift.String : Any], onSuccess: Self.SuccessHandler?, onError: Self.FailureHandler?)
+  @objc var name: Swift.String { get }
+  @objc var skipQuotes: Swift.Bool { get }
+  @objc func checkAllowDomainAndHandle(with controller: Self.Controller, message: WebKit.WKScriptMessage)
+  @objc func handle(controller: Self.Controller, body: [Swift.String : Any], onSuccess: Self.SuccessHandler?, onError: Self.FailureHandler?)
 }
 extension AppBridgeType {
-  public var skipQuotes: Swift.Bool {
-    get
-  }
-  public func checkAllowDomainAndHandle(with controller: Self.Controller, message: WebKit.WKScriptMessage)
   public func isAllowedURL(with controller: BrandPayBase.WebViewControllerType, message: WebKit.WKScriptMessage) -> Swift.Bool
   public func check(_ webViewController: BrandPayBase.WebViewControllerType) -> Swift.Bool
+}
+extension AppBridgeType {
+  public func nameOfSuccessHandler(body: [Swift.String : Any]) -> Swift.String?
+  public func nameOfErrorHandler(body: [Swift.String : Any]) -> Swift.String?
+  public func callbackFunction(controller: BrandPayBase.WebViewControllerType, name: Swift.String) -> ([Swift.String]) -> Swift.Void
+  public func errorCallbackFunction(controller: BrandPayBase.WebViewControllerType, name: Swift.String) -> (Swift.Error) -> Swift.Void
 }
 public enum BiometricType : Swift.String {
   case touchID
@@ -35,10 +37,12 @@ public enum BiometricType : Swift.String {
     get
   }
 }
-final public class GetAppInfoAppBridge : BrandPayBase.AppBridgeType {
-  final public var name: Swift.String
-  public init()
-  final public func handle(controller: BrandPayBase.GetAppInfoAppBridge.Controller, body: [Swift.String : Any], onSuccess: BrandPayBase.GetAppInfoAppBridge.SuccessHandler?, onError: BrandPayBase.GetAppInfoAppBridge.FailureHandler?)
+@objc @_inheritsConvenienceInitializers final public class GetAppInfoAppBridge : ObjectiveC.NSObject, BrandPayBase.AppBridgeType {
+  @objc final public var name: Swift.String
+  @objc final public let skipQuotes: Swift.Bool
+  @objc override dynamic public init()
+  @objc final public func handle(controller: BrandPayBase.GetAppInfoAppBridge.Controller, body: [Swift.String : Any], onSuccess: BrandPayBase.GetAppInfoAppBridge.SuccessHandler?, onError: BrandPayBase.GetAppInfoAppBridge.FailureHandler?)
+  @objc final public func checkAllowDomainAndHandle(with controller: BrandPayBase.GetAppInfoAppBridge.Controller, message: WebKit.WKScriptMessage)
   @objc deinit
 }
 extension AES {
@@ -429,20 +433,20 @@ public protocol WebScriptMessageHandlerType : AnyObject {
   func register(appBridge: BrandPayBase.AppBridgeType)
   func unregister(for name: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers public class WebScriptMessageHandler : ObjectiveC.NSObject, BrandPayBase.WebScriptMessageHandlerType {
+@objc @_inheritsConvenienceInitializers @objcMembers public class WebScriptMessageHandler : ObjectiveC.NSObject, BrandPayBase.WebScriptMessageHandlerType {
   @objc override dynamic public init()
-  public var registeredAppBridges: [Swift.String : BrandPayBase.AppBridgeType]
-  public var controller: BrandPayBase.WebScriptMessageHandler.Controller?
-  public func register(appBridge: BrandPayBase.AppBridgeType)
-  public func unregister(for name: Swift.String)
+  @objc public var registeredAppBridges: [Swift.String : BrandPayBase.AppBridgeType]
+  @objc public var controller: BrandPayBase.WebScriptMessageHandler.Controller?
+  @objc public func register(appBridge: BrandPayBase.AppBridgeType)
+  @objc public func unregister(for name: Swift.String)
   @objc deinit
 }
 extension WebScriptMessageHandler : WebKit.WKScriptMessageHandler {
   @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
 }
-public protocol WebViewControllerType {
-  func installAppBridges()
-  func evaluateJavaScriptSafely(javaScriptString: Swift.String)
+@objc public protocol WebViewControllerType {
+  @objc func installAppBridges()
+  @objc func evaluateJavaScriptSafely(javaScriptString: Swift.String)
 }
 extension BrandPayBase.BiometricType : Swift.Equatable {}
 extension BrandPayBase.BiometricType : Swift.Hashable {}

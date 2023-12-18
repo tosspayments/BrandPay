@@ -6,35 +6,45 @@ import Foundation
 import LocalAuthentication
 import Swift
 import UIKit
-final public class GetBiometricAuthMethodsAppBridge : BrandPayBase.AppBridgeType {
-  final public var name: Swift.String
-  final public let skipQuotes: Swift.Bool
-  public init(provider: BiometricInterface.BiometricAuthenticationProvider = BiometricAuthenticationProvider())
-  final public func handle(controller: BiometricInterface.GetBiometricAuthMethodsAppBridge.Controller, body: [Swift.String : Any], onSuccess: BiometricInterface.GetBiometricAuthMethodsAppBridge.SuccessHandler?, onError: BiometricInterface.GetBiometricAuthMethodsAppBridge.FailureHandler?)
+import WebKit
+@objc @_inheritsConvenienceInitializers final public class GetBiometricAuthMethodsAppBridge : ObjectiveC.NSObject, BrandPayBase.AppBridgeType {
+  @objc final public var name: Swift.String
+  @objc final public let skipQuotes: Swift.Bool
+  @objc override dynamic public init()
+  @objc final public func handle(controller: BiometricInterface.GetBiometricAuthMethodsAppBridge.Controller, body: [Swift.String : Any], onSuccess: BiometricInterface.GetBiometricAuthMethodsAppBridge.SuccessHandler?, onError: BiometricInterface.GetBiometricAuthMethodsAppBridge.FailureHandler?)
+  @objc final public func checkAllowDomainAndHandle(with controller: BiometricInterface.GetBiometricAuthMethodsAppBridge.Controller, message: WebKit.WKScriptMessage)
   @objc deinit
 }
-final public class HasBiometricAuthAppBridge : BrandPayBase.AppBridgeType {
-  final public var name: Swift.String
-  public init(provider: BiometricInterface.BiometricAuthenticationProvider = BiometricAuthenticationProvider())
-  final public func handle(controller: BiometricInterface.HasBiometricAuthAppBridge.Controller, body: [Swift.String : Any], onSuccess: BiometricInterface.HasBiometricAuthAppBridge.SuccessHandler?, onError: BiometricInterface.HasBiometricAuthAppBridge.FailureHandler?)
+@objc @_inheritsConvenienceInitializers final public class HasBiometricAuthAppBridge : ObjectiveC.NSObject, BrandPayBase.AppBridgeType {
+  @objc final public var name: Swift.String
+  @objc final public let skipQuotes: Swift.Bool
+  @objc override dynamic public init()
+  @objc final public func handle(controller: BiometricInterface.HasBiometricAuthAppBridge.Controller, body: [Swift.String : Any], onSuccess: BiometricInterface.HasBiometricAuthAppBridge.SuccessHandler?, onError: BiometricInterface.HasBiometricAuthAppBridge.FailureHandler?)
+  @objc final public func checkAllowDomainAndHandle(with controller: BiometricInterface.HasBiometricAuthAppBridge.Controller, message: WebKit.WKScriptMessage)
   @objc deinit
 }
-final public class RegisterBiometricAuthAppBridge : BrandPayBase.AppBridgeType {
-  final public var name: Swift.String
-  public init(provider: BiometricInterface.BiometricAuthenticationProvider = BiometricAuthenticationProvider())
-  final public func handle(controller: BiometricInterface.RegisterBiometricAuthAppBridge.Controller, body: [Swift.String : Any], onSuccess: BiometricInterface.RegisterBiometricAuthAppBridge.SuccessHandler?, onError: BiometricInterface.RegisterBiometricAuthAppBridge.FailureHandler?)
+@objc @_inheritsConvenienceInitializers final public class RegisterBiometricAuthAppBridge : ObjectiveC.NSObject, BrandPayBase.AppBridgeType {
+  @objc final public var name: Swift.String
+  @objc final public let skipQuotes: Swift.Bool
+  @objc override dynamic public init()
+  @objc final public func handle(controller: BiometricInterface.RegisterBiometricAuthAppBridge.Controller, body: [Swift.String : Any], onSuccess: BiometricInterface.RegisterBiometricAuthAppBridge.SuccessHandler?, onError: BiometricInterface.RegisterBiometricAuthAppBridge.FailureHandler?)
+  @objc final public func checkAllowDomainAndHandle(with controller: BiometricInterface.RegisterBiometricAuthAppBridge.Controller, message: WebKit.WKScriptMessage)
   @objc deinit
 }
-final public class UnregisterBiometricAuthAppBridge : BrandPayBase.AppBridgeType {
-  final public var name: Swift.String
-  public init(provider: BiometricInterface.BiometricAuthenticationProvider = BiometricAuthenticationProvider())
-  final public func handle(controller: BiometricInterface.UnregisterBiometricAuthAppBridge.Controller, body: [Swift.String : Any], onSuccess: BiometricInterface.UnregisterBiometricAuthAppBridge.SuccessHandler?, onError: BiometricInterface.UnregisterBiometricAuthAppBridge.FailureHandler?)
+@objc @_inheritsConvenienceInitializers final public class UnregisterBiometricAuthAppBridge : ObjectiveC.NSObject, BrandPayBase.AppBridgeType {
+  @objc final public var name: Swift.String
+  @objc final public let skipQuotes: Swift.Bool
+  @objc override dynamic public init()
+  @objc final public func handle(controller: BiometricInterface.UnregisterBiometricAuthAppBridge.Controller, body: [Swift.String : Any], onSuccess: BiometricInterface.UnregisterBiometricAuthAppBridge.SuccessHandler?, onError: BiometricInterface.UnregisterBiometricAuthAppBridge.FailureHandler?)
+  @objc final public func checkAllowDomainAndHandle(with controller: BiometricInterface.UnregisterBiometricAuthAppBridge.Controller, message: WebKit.WKScriptMessage)
   @objc deinit
 }
-final public class VerifyBiometricAuthAppBridge : BrandPayBase.AppBridgeType {
-  final public var name: Swift.String
-  public init(provider: BiometricInterface.BiometricAuthenticationProvider = BiometricAuthenticationProvider())
-  final public func handle(controller: BiometricInterface.VerifyBiometricAuthAppBridge.Controller, body: [Swift.String : Any], onSuccess: BiometricInterface.VerifyBiometricAuthAppBridge.SuccessHandler?, onError: BiometricInterface.VerifyBiometricAuthAppBridge.FailureHandler?)
+@objc @_inheritsConvenienceInitializers final public class VerifyBiometricAuthAppBridge : ObjectiveC.NSObject, BrandPayBase.AppBridgeType {
+  @objc final public var name: Swift.String
+  @objc final public let skipQuotes: Swift.Bool
+  @objc override dynamic public init()
+  @objc final public func handle(controller: BiometricInterface.VerifyBiometricAuthAppBridge.Controller, body: [Swift.String : Any], onSuccess: BiometricInterface.VerifyBiometricAuthAppBridge.SuccessHandler?, onError: BiometricInterface.VerifyBiometricAuthAppBridge.FailureHandler?)
+  @objc final public func checkAllowDomainAndHandle(with controller: BiometricInterface.VerifyBiometricAuthAppBridge.Controller, message: WebKit.WKScriptMessage)
   @objc deinit
 }
 public typealias PolicyDomainState = Foundation.Data

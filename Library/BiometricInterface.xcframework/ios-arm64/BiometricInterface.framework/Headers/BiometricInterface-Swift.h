@@ -188,6 +188,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import BrandPayBase;
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -204,6 +207,60 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="BiometricInterface",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+@class NSString;
+@class NSNumber;
+@protocol WebViewControllerType;
+@class WKScriptMessage;
+
+SWIFT_CLASS("_TtC18BiometricInterface32GetBiometricAuthMethodsAppBridge")
+@interface GetBiometricAuthMethodsAppBridge : NSObject <AppBridgeType>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+@end
+
+
+SWIFT_CLASS("_TtC18BiometricInterface25HasBiometricAuthAppBridge")
+@interface HasBiometricAuthAppBridge : NSObject <AppBridgeType>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+@end
+
+
+SWIFT_CLASS("_TtC18BiometricInterface30RegisterBiometricAuthAppBridge")
+@interface RegisterBiometricAuthAppBridge : NSObject <AppBridgeType>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+@end
+
+
+SWIFT_CLASS("_TtC18BiometricInterface32UnregisterBiometricAuthAppBridge")
+@interface UnregisterBiometricAuthAppBridge : NSObject <AppBridgeType>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+@end
+
+
+SWIFT_CLASS("_TtC18BiometricInterface28VerifyBiometricAuthAppBridge")
+@interface VerifyBiometricAuthAppBridge : NSObject <AppBridgeType>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
