@@ -16,3 +16,9 @@ target 'BrandPayWebExample' do
   pod 'BrandPay/Biometric', :path => '../../'
   pod 'BrandPay/OCR', :path => '../../'
 end
+
+target 'BrandPayObjcExample' do
+  use_frameworks!
+  pod 'BrandPay/Biometric', :path => '../../'
+  pod 'BrandPay/OCR', :path => '../../'
+end

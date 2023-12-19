@@ -211,6 +211,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 @class NSString;
+@class NSNumber;
+@protocol WebViewControllerType;
+@class WKScriptMessage;
+
+SWIFT_PROTOCOL("_TtP12BrandPayBase13AppBridgeType_")
+@protocol AppBridgeType
+@property (nonatomic, readonly, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+@end
+
 @class NSMutableString;
 
 SWIFT_CLASS("_TtC12BrandPayBase15EncryptedString")
@@ -227,9 +239,6 @@ SWIFT_CLASS("_TtC12BrandPayBase15EncryptedString")
 
 
 
-
-@class NSNumber;
-
 @interface EncryptedString (SWIFT_EXTENSION(BrandPayBase))
 - (BOOL)isEqual:(id _Nullable)other SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, readonly) NSUInteger hash;
@@ -243,6 +252,17 @@ SWIFT_CLASS("_TtC12BrandPayBase15EncryptedString")
 
 
 
+SWIFT_CLASS("_TtC12BrandPayBase19GetAppInfoAppBridge")
+@interface GetAppInfoAppBridge : NSObject <AppBridgeType>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+@end
+
+
+
 
 @interface NSData (SWIFT_EXTENSION(BrandPayBase))
 - (NSString * _Nonnull)toHexString SWIFT_WARN_UNUSED_RESULT;
@@ -250,6 +270,7 @@ SWIFT_CLASS("_TtC12BrandPayBase15EncryptedString")
 - (NSString * _Nullable)toStringWithEncoding:(NSUInteger)rawValue SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)toStringUsingUTF8Encoding SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -269,13 +290,23 @@ SWIFT_CLASS("_TtC12BrandPayBase15EncryptedString")
 SWIFT_CLASS("_TtC12BrandPayBase23WebScriptMessageHandler")
 @interface WebScriptMessageHandler : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, copy) NSDictionary<NSString *, id <AppBridgeType>> * _Nonnull registeredAppBridges;
+@property (nonatomic, strong) id <WebViewControllerType> _Nullable controller;
+- (void)registerWithAppBridge:(id <AppBridgeType> _Nonnull)appBridge;
+- (void)unregisterFor:(NSString * _Nonnull)name;
 @end
 
 @class WKUserContentController;
-@class WKScriptMessage;
 
 @interface WebScriptMessageHandler (SWIFT_EXTENSION(BrandPayBase)) <WKScriptMessageHandler>
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
+@end
+
+
+SWIFT_PROTOCOL("_TtP12BrandPayBase21WebViewControllerType_")
+@protocol WebViewControllerType
+- (void)installAppBridges;
+- (void)evaluateJavaScriptSafelyWithJavaScriptString:(NSString * _Nonnull)javaScriptString;
 @end
 
 #if __has_attribute(external_source_symbol)
@@ -496,6 +527,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 @class NSString;
+@class NSNumber;
+@protocol WebViewControllerType;
+@class WKScriptMessage;
+
+SWIFT_PROTOCOL("_TtP12BrandPayBase13AppBridgeType_")
+@protocol AppBridgeType
+@property (nonatomic, readonly, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+@end
+
 @class NSMutableString;
 
 SWIFT_CLASS("_TtC12BrandPayBase15EncryptedString")
@@ -512,9 +555,6 @@ SWIFT_CLASS("_TtC12BrandPayBase15EncryptedString")
 
 
 
-
-@class NSNumber;
-
 @interface EncryptedString (SWIFT_EXTENSION(BrandPayBase))
 - (BOOL)isEqual:(id _Nullable)other SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, readonly) NSUInteger hash;
@@ -528,6 +568,17 @@ SWIFT_CLASS("_TtC12BrandPayBase15EncryptedString")
 
 
 
+SWIFT_CLASS("_TtC12BrandPayBase19GetAppInfoAppBridge")
+@interface GetAppInfoAppBridge : NSObject <AppBridgeType>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+@end
+
+
+
 
 @interface NSData (SWIFT_EXTENSION(BrandPayBase))
 - (NSString * _Nonnull)toHexString SWIFT_WARN_UNUSED_RESULT;
@@ -535,6 +586,7 @@ SWIFT_CLASS("_TtC12BrandPayBase15EncryptedString")
 - (NSString * _Nullable)toStringWithEncoding:(NSUInteger)rawValue SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)toStringUsingUTF8Encoding SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -554,13 +606,23 @@ SWIFT_CLASS("_TtC12BrandPayBase15EncryptedString")
 SWIFT_CLASS("_TtC12BrandPayBase23WebScriptMessageHandler")
 @interface WebScriptMessageHandler : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, copy) NSDictionary<NSString *, id <AppBridgeType>> * _Nonnull registeredAppBridges;
+@property (nonatomic, strong) id <WebViewControllerType> _Nullable controller;
+- (void)registerWithAppBridge:(id <AppBridgeType> _Nonnull)appBridge;
+- (void)unregisterFor:(NSString * _Nonnull)name;
 @end
 
 @class WKUserContentController;
-@class WKScriptMessage;
 
 @interface WebScriptMessageHandler (SWIFT_EXTENSION(BrandPayBase)) <WKScriptMessageHandler>
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
+@end
+
+
+SWIFT_PROTOCOL("_TtP12BrandPayBase21WebViewControllerType_")
+@protocol WebViewControllerType
+- (void)installAppBridges;
+- (void)evaluateJavaScriptSafelyWithJavaScriptString:(NSString * _Nonnull)javaScriptString;
 @end
 
 #if __has_attribute(external_source_symbol)

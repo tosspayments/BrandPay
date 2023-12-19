@@ -8,6 +8,7 @@ import Foundation
 import MobileCoreServices
 import Swift
 import UIKit
+import WebKit
 public enum OCRInterfaceAsset {
   public static let icnIosClose: OCRInterface.OCRInterfaceImages
 }
@@ -31,16 +32,21 @@ extension UIImage {
   @objc override dynamic public init()
   @objc deinit
 }
-final public class IsOCRAvailableAppBridge : BrandPayBase.AppBridgeType {
-  final public var name: Swift.String
-  public init()
-  final public func handle(controller: OCRInterface.IsOCRAvailableAppBridge.Controller, body: [Swift.String : Any], onSuccess: OCRInterface.IsOCRAvailableAppBridge.SuccessHandler?, onError: OCRInterface.IsOCRAvailableAppBridge.FailureHandler?)
+@objc @_inheritsConvenienceInitializers final public class IsOCRAvailableAppBridge : ObjectiveC.NSObject, BrandPayBase.AppBridgeType {
+  @objc final public var name: Swift.String
+  @objc final public let skipQuotes: Swift.Bool
+  @objc override dynamic public init()
+  @objc final public func handle(controller: OCRInterface.IsOCRAvailableAppBridge.Controller, body: [Swift.String : Any], onSuccess: OCRInterface.IsOCRAvailableAppBridge.SuccessHandler?, onError: OCRInterface.IsOCRAvailableAppBridge.FailureHandler?)
+  @objc final public func checkAllowDomainAndHandle(with controller: OCRInterface.IsOCRAvailableAppBridge.Controller, message: WebKit.WKScriptMessage)
   @objc deinit
 }
-final public class ScanOCRCardAppBridge : BrandPayBase.AppBridgeType {
-  final public var name: Swift.String
-  public init(licenseKeyFile: Swift.String)
-  final public func handle(controller: OCRInterface.ScanOCRCardAppBridge.Controller, body: [Swift.String : Any], onSuccess: OCRInterface.ScanOCRCardAppBridge.SuccessHandler?, onError: OCRInterface.ScanOCRCardAppBridge.FailureHandler?)
+@objc final public class ScanOCRCardAppBridge : ObjectiveC.NSObject, BrandPayBase.AppBridgeType {
+  @objc final public var name: Swift.String
+  @objc final public let skipQuotes: Swift.Bool
+  @objc public init(licenseKeyFile: Swift.String)
+  @objc final public func handle(controller: OCRInterface.ScanOCRCardAppBridge.Controller, body: [Swift.String : Any], onSuccess: OCRInterface.ScanOCRCardAppBridge.SuccessHandler?, onError: OCRInterface.ScanOCRCardAppBridge.FailureHandler?)
+  @objc final public func checkAllowDomainAndHandle(with controller: OCRInterface.ScanOCRCardAppBridge.Controller, message: WebKit.WKScriptMessage)
+  @objc override dynamic public init()
   @objc deinit
 }
 public protocol OcrCameraPreviewDelegate : AnyObject {

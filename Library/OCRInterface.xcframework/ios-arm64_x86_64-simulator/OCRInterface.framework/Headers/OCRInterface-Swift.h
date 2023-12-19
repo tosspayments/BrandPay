@@ -190,6 +190,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import BrandPayBase;
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -209,6 +211,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+@class NSString;
+@class NSNumber;
+@protocol WebViewControllerType;
+@class WKScriptMessage;
+
+SWIFT_CLASS("_TtC12OCRInterface23IsOCRAvailableAppBridge")
+@interface IsOCRAvailableAppBridge : NSObject <AppBridgeType>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+@end
+
 @class NSBundle;
 
 SWIFT_CLASS("_TtC12OCRInterface21OCRInterfaceResources")
@@ -216,6 +232,18 @@ SWIFT_CLASS("_TtC12OCRInterface21OCRInterfaceResources")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NSBundle * _Nonnull bundle;)
 + (NSBundle * _Nonnull)bundle SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12OCRInterface20ScanOCRCardAppBridge")
+@interface ScanOCRCardAppBridge : NSObject <AppBridgeType>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (nonnull instancetype)initWithLicenseKeyFile:(NSString * _Nonnull)licenseKeyFile OBJC_DESIGNATED_INITIALIZER;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -417,6 +445,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import BrandPayBase;
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -436,6 +466,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+@class NSString;
+@class NSNumber;
+@protocol WebViewControllerType;
+@class WKScriptMessage;
+
+SWIFT_CLASS("_TtC12OCRInterface23IsOCRAvailableAppBridge")
+@interface IsOCRAvailableAppBridge : NSObject <AppBridgeType>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+@end
+
 @class NSBundle;
 
 SWIFT_CLASS("_TtC12OCRInterface21OCRInterfaceResources")
@@ -443,6 +487,18 @@ SWIFT_CLASS("_TtC12OCRInterface21OCRInterfaceResources")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NSBundle * _Nonnull bundle;)
 + (NSBundle * _Nonnull)bundle SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12OCRInterface20ScanOCRCardAppBridge")
+@interface ScanOCRCardAppBridge : NSObject <AppBridgeType>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, readonly) BOOL skipQuotes;
+- (nonnull instancetype)initWithLicenseKeyFile:(NSString * _Nonnull)licenseKeyFile OBJC_DESIGNATED_INITIALIZER;
+- (void)handleWithController:(id <WebViewControllerType> _Nonnull)controller body:(NSDictionary<NSString *, id> * _Nonnull)body onSuccess:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
+- (void)checkAllowDomainAndHandleWith:(id <WebViewControllerType> _Nonnull)controller message:(WKScriptMessage * _Nonnull)message;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
