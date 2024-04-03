@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OCRInterface
 import AVFoundation
 import BrandPayBase
@@ -9,6 +9,7 @@ import MobileCoreServices
 import Swift
 import UIKit
 import WebKit
+import _Concurrency
 public enum OCRInterfaceAsset {
   public static let icnIosClose: OCRInterface.OCRInterfaceImages
 }
@@ -21,7 +22,7 @@ public struct OCRInterfaceImages {
     get
   }
 }
-extension UIImage {
+extension UIKit.UIImage {
   @available(macOS, deprecated, message: "This initializer is unsafe on macOS, please use the OCRInterfaceImages.image property")
   convenience public init?(asset: OCRInterface.OCRInterfaceImages)
 }
@@ -46,7 +47,6 @@ extension UIImage {
   @objc public init(licenseKeyFile: Swift.String)
   @objc final public func handle(controller: OCRInterface.ScanOCRCardAppBridge.Controller, body: [Swift.String : Any], onSuccess: OCRInterface.ScanOCRCardAppBridge.SuccessHandler?, onError: OCRInterface.ScanOCRCardAppBridge.FailureHandler?)
   @objc final public func checkAllowDomainAndHandle(with controller: OCRInterface.ScanOCRCardAppBridge.Controller, message: WebKit.WKScriptMessage)
-  @objc override dynamic public init()
   @objc deinit
 }
 public protocol OcrCameraPreviewDelegate : AnyObject {
