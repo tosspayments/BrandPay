@@ -1,3 +1,5 @@
 vendor
 .DS_Store
 Example/Cocoapod_UIKit/Pods
+/Example/Cocoapod_UIKit/BrandPayExample.xcworkspace/xcuserdata
+xcschememanagement.plist
