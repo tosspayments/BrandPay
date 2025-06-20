@@ -16,7 +16,7 @@ https://tosspayments.com
 - iOS 11.0
 
 ## SDK 추가
-브랜드페이 iOS SDK는 Manual, Cocoapods, Swift Package Manager르 지원합니다.
+브랜드페이 iOS SDK는 Manual, Cocoapods, Swift Package Manager를 지원합니다.
 
 ### XCFreameworks
 아래와 같이 프레임워크를 제공하고 있습니다.
@@ -59,13 +59,13 @@ pod install
 https://github.com/tosspayments/BrandPay
 
 ## 권한 설정
-BrandPay iOS SDK느 카메라 권한과 생체인증 권한 설정ㅇ 필요합니다.
+BrandPay iOS SDK는 카메라 권한과 생체인증 권한 설정이 필요합니다.
 
 ## Web ↔ App간 Message 처리를 위한 설정
 ```
 extension BrandPayWebInterface: WebViewControllerType {
 
-    // var webView: WKWebView! // 선언되어있는 WKWebView instance를 사용합닏.
+    // var webView: WKWebView! // 선언되어있는 WKWebView instance를 사용합니다.
     
     // 
     func installAppBridges() {
@@ -93,6 +93,35 @@ extension BrandPayWebInterface: WebViewControllerType {
     func evaluateJavaScriptSafely(javaScriptString: String) {
         webView.evaluateJavaScript(javaScriptString) { (_, _) in
             
+        }
+    }
+    
+    // SDK 내부에서 발생하는 에러를 받을 수 있는 콜백입니다. 
+    func onErrorOccurred(_ error: NSError) {
+        // 1. NSError → BrandpayBiometricAuthError 변환
+        guard let biometricAuthError = BrandpayBiometricAuthError.from(error) else {
+            return
+        }
+        
+        // 2. 확인할 수 있는 정보
+        let message   = biometricAuthError.errorDescription    // 에러 메시지
+        let traceId   = biometricAuthError.traceId             // 추적용 ID
+        let underlying = biometricAuthError.underlyingError     // 발생한 원본 내부 에러
+        
+        // 3. 에러 타입별 분기 처리
+        switch biometricAuthError {
+            
+        case .secureStorageInitFailed:
+            // 내부 보안 저장소 초기화 실패
+            
+        case .secureStorageOpFailed:
+            // 보안 저장소 읽기/쓰기 실패
+            
+        case .cryptoFailed:
+            // 암호화/복호화 실패
+            
+        case .biometricAPIFailed:
+            // 시스템 생체인증 API 호출 실패
         }
     }
 }

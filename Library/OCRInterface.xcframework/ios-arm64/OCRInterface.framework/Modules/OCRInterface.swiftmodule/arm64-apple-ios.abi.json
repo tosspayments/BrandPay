@@ -1,0 +1,4536 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OCRInterfaceAsset",
+        "printedName": "OCRInterfaceAsset",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "icnIosClose",
+            "printedName": "icnIosClose",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OCRInterfaceImages",
+                "printedName": "OCRInterface.OCRInterfaceImages",
+                "usr": "s:12OCRInterface0A6ImagesV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OCRInterface0A5AssetO11icnIosCloseAA0A6ImagesVvpZ",
+            "mangledName": "$s12OCRInterface0A5AssetO11icnIosCloseAA0A6ImagesVvpZ",
+            "moduleName": "OCRInterface",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OCRInterfaceImages",
+                    "printedName": "OCRInterface.OCRInterfaceImages",
+                    "usr": "s:12OCRInterface0A6ImagesV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface0A5AssetO11icnIosCloseAA0A6ImagesVvgZ",
+                "mangledName": "$s12OCRInterface0A5AssetO11icnIosCloseAA0A6ImagesVvgZ",
+                "moduleName": "OCRInterface",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12OCRInterface0A5AssetO",
+        "mangledName": "$s12OCRInterface0A5AssetO",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OCRInterfaceImages",
+        "printedName": "OCRInterfaceImages",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OCRInterface0A6ImagesV4nameSSvp",
+            "mangledName": "$s12OCRInterface0A6ImagesV4nameSSvp",
+            "moduleName": "OCRInterface",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface0A6ImagesV4nameSSvg",
+                "mangledName": "$s12OCRInterface0A6ImagesV4nameSSvg",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OCRInterface0A6ImagesV5imageSo7UIImageCvp",
+            "mangledName": "$s12OCRInterface0A6ImagesV5imageSo7UIImageCvp",
+            "moduleName": "OCRInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface0A6ImagesV5imageSo7UIImageCvg",
+                "mangledName": "$s12OCRInterface0A6ImagesV5imageSo7UIImageCvg",
+                "moduleName": "OCRInterface",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12OCRInterface0A6ImagesV",
+        "mangledName": "$s12OCRInterface0A6ImagesV",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OCRInterfaceResources",
+        "printedName": "OCRInterfaceResources",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OCRInterface@objc(cs)OCRInterfaceResources(cpy)bundle",
+            "mangledName": "$s12OCRInterface0A9ResourcesC6bundleSo8NSBundleCvpZ",
+            "moduleName": "OCRInterface",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OCRInterface@objc(cs)OCRInterfaceResources(cm)bundle",
+                "mangledName": "$s12OCRInterface0A9ResourcesC6bundleSo8NSBundleCvgZ",
+                "moduleName": "OCRInterface",
+                "static": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OCRInterfaceResources",
+                "printedName": "OCRInterface.OCRInterfaceResources",
+                "usr": "c:@M@OCRInterface@objc(cs)OCRInterfaceResources"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OCRInterface@objc(cs)OCRInterfaceResources(im)init",
+            "mangledName": "$s12OCRInterface0A9ResourcesCACycfc",
+            "moduleName": "OCRInterface",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OCRInterface@objc(cs)OCRInterfaceResources",
+        "mangledName": "$s12OCRInterface0A9ResourcesC",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "BrandPayBase",
+        "printedName": "BrandPayBase",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IsOCRAvailableAppBridge",
+        "printedName": "IsOCRAvailableAppBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internalErrorHandler",
+            "printedName": "internalErrorHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge(py)internalErrorHandler",
+            "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvp",
+            "moduleName": "OCRInterface",
+            "objc_name": "internalErrorHandler",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge(im)internalErrorHandler",
+                "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvg",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "objc_name": "internalErrorHandler",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge(im)setInternalErrorHandler:",
+                "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvs",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "objc_name": "setInternalErrorHandler:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface23IsOCRAvailableAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge(py)name",
+            "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC4nameSSvp",
+            "moduleName": "OCRInterface",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge(im)name",
+                "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC4nameSSvg",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge(im)setName:",
+                "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC4nameSSvs",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface23IsOCRAvailableAppBridgeC4nameSSvM",
+                "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC4nameSSvM",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "skipQuotes",
+            "printedName": "skipQuotes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge(py)skipQuotes",
+            "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC10skipQuotesSbvp",
+            "moduleName": "OCRInterface",
+            "objc_name": "skipQuotes",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge(im)skipQuotes",
+                "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC10skipQuotesSbvg",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "objc_name": "skipQuotes",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IsOCRAvailableAppBridge",
+                "printedName": "OCRInterface.IsOCRAvailableAppBridge",
+                "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge(im)init",
+            "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeCACycfc",
+            "moduleName": "OCRInterface",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(controller:body:onSuccess:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge(im)handleWithController:body:onSuccess:onError:",
+            "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC6handle10controller4body9onSuccess0I5Errory12BrandPayBase21WebViewControllerType_p_SDySSypGySaySSGcSgys0K0_pcSgtF",
+            "moduleName": "OCRInterface",
+            "objc_name": "handleWithController:body:onSuccess:onError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkAllowDomainAndHandle",
+            "printedName": "checkAllowDomainAndHandle(with:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge(im)checkAllowDomainAndHandleWith:message:",
+            "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC25checkAllowDomainAndHandle4with7messagey12BrandPayBase21WebViewControllerType_p_So15WKScriptMessageCtF",
+            "moduleName": "OCRInterface",
+            "objc_name": "checkAllowDomainAndHandleWith:message:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OCRInterface@objc(cs)IsOCRAvailableAppBridge",
+        "mangledName": "$s12OCRInterface23IsOCRAvailableAppBridgeC",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AppBridgeType",
+            "printedName": "AppBridgeType",
+            "usr": "c:@M@BrandPayBase@objc(pl)AppBridgeType",
+            "mangledName": "$s12BrandPayBase13AppBridgeTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BrandPayBase",
+        "printedName": "BrandPayBase",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScanOCRCardAppBridge",
+        "printedName": "ScanOCRCardAppBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internalErrorHandler",
+            "printedName": "internalErrorHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(py)internalErrorHandler",
+            "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvp",
+            "moduleName": "OCRInterface",
+            "objc_name": "internalErrorHandler",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(im)internalErrorHandler",
+                "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvg",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "objc_name": "internalErrorHandler",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(im)setInternalErrorHandler:",
+                "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvs",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "objc_name": "setInternalErrorHandler:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface20ScanOCRCardAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(py)name",
+            "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC4nameSSvp",
+            "moduleName": "OCRInterface",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(im)name",
+                "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC4nameSSvg",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(im)setName:",
+                "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC4nameSSvs",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface20ScanOCRCardAppBridgeC4nameSSvM",
+                "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC4nameSSvM",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "skipQuotes",
+            "printedName": "skipQuotes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(py)skipQuotes",
+            "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC10skipQuotesSbvp",
+            "moduleName": "OCRInterface",
+            "objc_name": "skipQuotes",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(im)skipQuotes",
+                "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC10skipQuotesSbvg",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "objc_name": "skipQuotes",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(licenseKeyFile:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScanOCRCardAppBridge",
+                "printedName": "OCRInterface.ScanOCRCardAppBridge",
+                "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(im)initWithLicenseKeyFile:",
+            "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC14licenseKeyFileACSS_tcfc",
+            "moduleName": "OCRInterface",
+            "objc_name": "initWithLicenseKeyFile:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(controller:body:onSuccess:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(im)handleWithController:body:onSuccess:onError:",
+            "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC6handle10controller4body9onSuccess0I5Errory12BrandPayBase21WebViewControllerType_p_SDySSypGySaySSGcSgys0K0_pcSgtF",
+            "moduleName": "OCRInterface",
+            "objc_name": "handleWithController:body:onSuccess:onError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkAllowDomainAndHandle",
+            "printedName": "checkAllowDomainAndHandle(with:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(im)checkAllowDomainAndHandleWith:message:",
+            "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC25checkAllowDomainAndHandle4with7messagey12BrandPayBase21WebViewControllerType_p_So15WKScriptMessageCtF",
+            "moduleName": "OCRInterface",
+            "objc_name": "checkAllowDomainAndHandleWith:message:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScanOCRCardAppBridge",
+                "printedName": "OCRInterface.ScanOCRCardAppBridge",
+                "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge(im)init",
+            "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeCACycfc",
+            "moduleName": "OCRInterface",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OCRInterface@objc(cs)ScanOCRCardAppBridge",
+        "mangledName": "$s12OCRInterface20ScanOCRCardAppBridgeC",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AppBridgeType",
+            "printedName": "AppBridgeType",
+            "usr": "c:@M@BrandPayBase@objc(pl)AppBridgeType",
+            "mangledName": "$s12BrandPayBase13AppBridgeTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "FinCubeOcrSDK",
+        "printedName": "FinCubeOcrSDK",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OcrCameraPreviewDelegate",
+        "printedName": "OcrCameraPreviewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "scanResult",
+            "printedName": "scanResult(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OcrScanResult",
+                "printedName": "OCRInterface.OcrScanResult",
+                "usr": "s:12OCRInterface13OcrScanResultC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OCRInterface24OcrCameraPreviewDelegateP10scanResultyyAA0b4ScanG0CF",
+            "mangledName": "$s12OCRInterface24OcrCameraPreviewDelegateP10scanResultyyAA0b4ScanG0CF",
+            "moduleName": "OCRInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewDelegate>",
+            "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didExpiredDate",
+            "printedName": "didExpiredDate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OCRInterface24OcrCameraPreviewDelegateP14didExpiredDateyyF",
+            "mangledName": "$s12OCRInterface24OcrCameraPreviewDelegateP14didExpiredDateyyF",
+            "moduleName": "OCRInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewDelegate>",
+            "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didInvalidPackageName",
+            "printedName": "didInvalidPackageName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OCRInterface24OcrCameraPreviewDelegateP21didInvalidPackageNameyyF",
+            "mangledName": "$s12OCRInterface24OcrCameraPreviewDelegateP21didInvalidPackageNameyyF",
+            "moduleName": "OCRInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewDelegate>",
+            "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12OCRInterface24OcrCameraPreviewDelegateP",
+        "mangledName": "$s12OCRInterface24OcrCameraPreviewDelegateP",
+        "moduleName": "OCRInterface",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OcrCameraPreviewType",
+        "printedName": "OcrCameraPreviewType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "preview",
+            "printedName": "preview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureVideoPreviewLayer",
+                "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OCRInterface20OcrCameraPreviewTypeP7previewSo014AVCaptureVideoD5LayerCvp",
+            "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP7previewSo014AVCaptureVideoD5LayerCvp",
+            "moduleName": "OCRInterface",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureVideoPreviewLayer",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                    "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface20OcrCameraPreviewTypeP7previewSo014AVCaptureVideoD5LayerCvg",
+                "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP7previewSo014AVCaptureVideoD5LayerCvg",
+                "moduleName": "OCRInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+                "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoFrameDelegate",
+            "printedName": "videoFrameDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OCRInterface.OcrCameraPreviewDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcrCameraPreviewDelegate",
+                    "printedName": "OCRInterface.OcrCameraPreviewDelegate",
+                    "usr": "s:12OCRInterface24OcrCameraPreviewDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OCRInterface20OcrCameraPreviewTypeP18videoFrameDelegateAA0bcdH0_pSgvp",
+            "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP18videoFrameDelegateAA0bcdH0_pSgvp",
+            "moduleName": "OCRInterface",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OCRInterface.OcrCameraPreviewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OcrCameraPreviewDelegate",
+                        "printedName": "OCRInterface.OcrCameraPreviewDelegate",
+                        "usr": "s:12OCRInterface24OcrCameraPreviewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface20OcrCameraPreviewTypeP18videoFrameDelegateAA0bcdH0_pSgvg",
+                "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP18videoFrameDelegateAA0bcdH0_pSgvg",
+                "moduleName": "OCRInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+                "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OCRInterface.OcrCameraPreviewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OcrCameraPreviewDelegate",
+                        "printedName": "OCRInterface.OcrCameraPreviewDelegate",
+                        "usr": "s:12OCRInterface24OcrCameraPreviewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface20OcrCameraPreviewTypeP18videoFrameDelegateAA0bcdH0_pSgvs",
+                "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP18videoFrameDelegateAA0bcdH0_pSgvs",
+                "moduleName": "OCRInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+                "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface20OcrCameraPreviewTypeP18videoFrameDelegateAA0bcdH0_pSgvM",
+                "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP18videoFrameDelegateAA0bcdH0_pSgvM",
+                "moduleName": "OCRInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+                "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startSession",
+            "printedName": "startSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OCRInterface20OcrCameraPreviewTypeP12startSessionyyF",
+            "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP12startSessionyyF",
+            "moduleName": "OCRInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+            "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopSession",
+            "printedName": "stopSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OCRInterface20OcrCameraPreviewTypeP11stopSessionyyF",
+            "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP11stopSessionyyF",
+            "moduleName": "OCRInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+            "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIDScannerMode",
+            "printedName": "setIDScannerMode(mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OCRInterface20OcrCameraPreviewTypeP16setIDScannerMode4modeySi_tF",
+            "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP16setIDScannerMode4modeySi_tF",
+            "moduleName": "OCRInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+            "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setOcrScannerType",
+            "printedName": "setOcrScannerType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OCRInterface20OcrCameraPreviewTypeP03setb7ScannerE0yySiF",
+            "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP03setb7ScannerE0yySiF",
+            "moduleName": "OCRInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+            "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGuideRect",
+            "printedName": "setGuideRect(horizontalOffset:verticalOffset:scale:orientation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OCRInterface20OcrCameraPreviewTypeP12setGuideRect16horizontalOffset08verticalJ05scale11orientationySf_S2fSitF",
+            "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP12setGuideRect16horizontalOffset08verticalJ05scale11orientationySf_S2fSitF",
+            "moduleName": "OCRInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+            "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeGuideRect",
+            "printedName": "changeGuideRect(horizontalOffset:verticalOffset:scale:orientation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OCRInterface20OcrCameraPreviewTypeP15changeGuideRect16horizontalOffset08verticalJ05scale11orientationySf_S2fSitF",
+            "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP15changeGuideRect16horizontalOffset08verticalJ05scale11orientationySf_S2fSitF",
+            "moduleName": "OCRInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+            "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setScanOption",
+            "printedName": "setScanOption(scanexpiry:validateNumber:validateEpiry:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OCRInterface20OcrCameraPreviewTypeP13setScanOption10scanexpiry14validateNumber0J5EpiryySb_S2btF",
+            "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP13setScanOption10scanexpiry14validateNumber0J5EpiryySb_S2btF",
+            "moduleName": "OCRInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+            "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setScanIDOption",
+            "printedName": "setScanIDOption(scanIssuingDate:scanIssuingRegion:scanLicenseNumber:scanLicenseType:scanLicenseSerial:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OCRInterface20OcrCameraPreviewTypeP15setScanIDOption15scanIssuingDate0iJ6Region0I13LicenseNumber0imE00iM6SerialySb_S4btF",
+            "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP15setScanIDOption15scanIssuingDate0iJ6Region0I13LicenseNumber0imE00iM6SerialySb_S4btF",
+            "moduleName": "OCRInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : OCRInterface.OcrCameraPreviewType>",
+            "sugared_genericSig": "<Self where Self : OCRInterface.OcrCameraPreviewType>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12OCRInterface20OcrCameraPreviewTypeP",
+        "mangledName": "$s12OCRInterface20OcrCameraPreviewTypeP",
+        "moduleName": "OCRInterface",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OcrScanResult",
+        "printedName": "OcrScanResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cardNumber",
+            "printedName": "cardNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableString",
+                "printedName": "Foundation.NSMutableString",
+                "usr": "c:objc(cs)NSMutableString"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OCRInterface13OcrScanResultC10cardNumberSo15NSMutableStringCvp",
+            "mangledName": "$s12OCRInterface13OcrScanResultC10cardNumberSo15NSMutableStringCvp",
+            "moduleName": "OCRInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSMutableString",
+                    "printedName": "Foundation.NSMutableString",
+                    "usr": "c:objc(cs)NSMutableString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC10cardNumberSo15NSMutableStringCvg",
+                "mangledName": "$s12OCRInterface13OcrScanResultC10cardNumberSo15NSMutableStringCvg",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSMutableString",
+                    "printedName": "Foundation.NSMutableString",
+                    "usr": "c:objc(cs)NSMutableString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC10cardNumberSo15NSMutableStringCvs",
+                "mangledName": "$s12OCRInterface13OcrScanResultC10cardNumberSo15NSMutableStringCvs",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC10cardNumberSo15NSMutableStringCvM",
+                "mangledName": "$s12OCRInterface13OcrScanResultC10cardNumberSo15NSMutableStringCvM",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expirtyDate",
+            "printedName": "expirtyDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableString",
+                "printedName": "Foundation.NSMutableString",
+                "usr": "c:objc(cs)NSMutableString"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OCRInterface13OcrScanResultC11expirtyDateSo15NSMutableStringCvp",
+            "mangledName": "$s12OCRInterface13OcrScanResultC11expirtyDateSo15NSMutableStringCvp",
+            "moduleName": "OCRInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSMutableString",
+                    "printedName": "Foundation.NSMutableString",
+                    "usr": "c:objc(cs)NSMutableString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC11expirtyDateSo15NSMutableStringCvg",
+                "mangledName": "$s12OCRInterface13OcrScanResultC11expirtyDateSo15NSMutableStringCvg",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSMutableString",
+                    "printedName": "Foundation.NSMutableString",
+                    "usr": "c:objc(cs)NSMutableString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC11expirtyDateSo15NSMutableStringCvs",
+                "mangledName": "$s12OCRInterface13OcrScanResultC11expirtyDateSo15NSMutableStringCvs",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC11expirtyDateSo15NSMutableStringCvM",
+                "mangledName": "$s12OCRInterface13OcrScanResultC11expirtyDateSo15NSMutableStringCvM",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardImage",
+            "printedName": "cardImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OCRInterface13OcrScanResultC9cardImageSo7UIImageCSgvp",
+            "mangledName": "$s12OCRInterface13OcrScanResultC9cardImageSo7UIImageCSgvp",
+            "moduleName": "OCRInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC9cardImageSo7UIImageCSgvg",
+                "mangledName": "$s12OCRInterface13OcrScanResultC9cardImageSo7UIImageCSgvg",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC9cardImageSo7UIImageCSgvs",
+                "mangledName": "$s12OCRInterface13OcrScanResultC9cardImageSo7UIImageCSgvs",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC9cardImageSo7UIImageCSgvM",
+                "mangledName": "$s12OCRInterface13OcrScanResultC9cardImageSo7UIImageCSgvM",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "result",
+            "printedName": "result",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OCRInterface13OcrScanResultC6resultSivp",
+            "mangledName": "$s12OCRInterface13OcrScanResultC6resultSivp",
+            "moduleName": "OCRInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC6resultSivg",
+                "mangledName": "$s12OCRInterface13OcrScanResultC6resultSivg",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC6resultSivs",
+                "mangledName": "$s12OCRInterface13OcrScanResultC6resultSivs",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface13OcrScanResultC6resultSivM",
+                "mangledName": "$s12OCRInterface13OcrScanResultC6resultSivM",
+                "moduleName": "OCRInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OcrScanResult",
+                "printedName": "OCRInterface.OcrScanResult",
+                "usr": "s:12OCRInterface13OcrScanResultC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12OCRInterface13OcrScanResultCACycfc",
+            "mangledName": "$s12OCRInterface13OcrScanResultCACycfc",
+            "moduleName": "OCRInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12OCRInterface13OcrScanResultC",
+        "mangledName": "$s12OCRInterface13OcrScanResultC",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OcrSdkDevice",
+        "printedName": "OcrSdkDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shouldSetPixelFormat",
+            "printedName": "shouldSetPixelFormat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OCRInterface12OcrSdkDeviceC20shouldSetPixelFormatSbvpZ",
+            "mangledName": "$s12OCRInterface12OcrSdkDeviceC20shouldSetPixelFormatSbvpZ",
+            "moduleName": "OCRInterface",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OCRInterface12OcrSdkDeviceC20shouldSetPixelFormatSbvgZ",
+                "mangledName": "$s12OCRInterface12OcrSdkDeviceC20shouldSetPixelFormatSbvgZ",
+                "moduleName": "OCRInterface",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12OCRInterface12OcrSdkDeviceC",
+        "mangledName": "$s12OCRInterface12OcrSdkDeviceC",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OCRInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(asset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OCRInterfaceImages",
+                "printedName": "OCRInterface.OCRInterfaceImages",
+                "usr": "s:12OCRInterface0A6ImagesV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIImageC12OCRInterfaceE5assetABSgAC0B6ImagesV_tcfc",
+            "mangledName": "$sSo7UIImageC12OCRInterfaceE5assetABSgAC0B6ImagesV_tcfc",
+            "moduleName": "OCRInterface",
+            "declAttributes": [
+              "Convenience",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/Derived\/Sources\/Assets+OCRInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 15,
+      "value": "\"icn-ios-close\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/Derived\/Sources\/Assets+OCRInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1272,
+      "length": 43,
+      "value": "\"Unable to load image asset named \""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/Derived\/Sources\/Assets+OCRInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1313,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/Config\/OCRConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 16,
+      "value": "\"isOCRAvailable\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 463,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 825,
+      "length": 16,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 840,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 613,
+      "length": 21,
+      "value": "\"카드스캔 취소\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 676,
+      "length": 21,
+      "value": "\"카드스캔 실패\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 34,
+      "value": "\"카드스캔 유효기간 만료\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 828,
+      "length": 38,
+      "value": "\"유효하지 않은 패키지 이름\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 72,
+      "value": "\"카드 스캔 실행을 위해서 카메라 권한이 필요합니다.\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1108,
+      "length": 14,
+      "value": "\"OCR_CANCELED\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1195,
+      "length": 12,
+      "value": "\"OCR_FAILED\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1250,
+      "length": 13,
+      "value": "\"OCR_INVALID\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
+      "length": 13,
+      "value": "\"scanOCRCard\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1492,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2065,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 2138,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2253,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2426,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2860,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1302,
+      "length": 20,
+      "value": "\"OCRInterface.ScanOCRCardAppBridge\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 661,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 693,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 8,
+      "value": "\"뒤로\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1043,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1111,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1181,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1985,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2007,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2029,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2082,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2103,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2115,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2133,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2427,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2511,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2580,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2649,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2856,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3795,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4048,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4228,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4257,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4289,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4558,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4596,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4792,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4888,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5082,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5203,
+      "length": 15,
+      "value": "\"icn-ios-close\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5436,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5445,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5456,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5466,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5655,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 776,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 835,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 864,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 903,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 958,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1015,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1061,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1106,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1151,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1202,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1250,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1298,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1344,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1392,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1440,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "StringLiteral",
+      "offset": 1543,
+      "length": 25,
+      "value": "\"ocr.sdk.ios.videostream\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1823,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "FloatLiteral",
+      "offset": 1976,
+      "length": 5,
+      "value": "242.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "FloatLiteral",
+      "offset": 1984,
+      "length": 5,
+      "value": "256.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "FloatLiteral",
+      "offset": 1998,
+      "length": 5,
+      "value": "244.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "FloatLiteral",
+      "offset": 2006,
+      "length": 5,
+      "value": "256.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "FloatLiteral",
+      "offset": 2019,
+      "length": 5,
+      "value": "246.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "FloatLiteral",
+      "offset": 2027,
+      "length": 5,
+      "value": "256.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2041,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2125,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3108,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3367,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3557,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3642,
+      "length": 2,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4156,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4450,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4470,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4896,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4918,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "StringLiteral",
+      "offset": 5070,
+      "length": 16,
+      "value": "\"adjustingFocus\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "StringLiteral",
+      "offset": 5228,
+      "length": 19,
+      "value": "\"adjustingExposure\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "FloatLiteral",
+      "offset": 5963,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "FloatLiteral",
+      "offset": 5971,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "FloatLiteral",
+      "offset": 6031,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6096,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6169,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6215,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "StringLiteral",
+      "offset": 6733,
+      "length": 19,
+      "value": "\"adjustingExposure\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "StringLiteral",
+      "offset": 6803,
+      "length": 16,
+      "value": "\"adjustingFocus\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7100,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7242,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7962,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8344,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8739,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9062,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10304,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "StringLiteral",
+      "offset": 10332,
+      "length": 16,
+      "value": "\"adjustingFocus\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "StringLiteral",
+      "offset": 10424,
+      "length": 19,
+      "value": "\"adjustingExposure\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10779,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10981,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11036,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11109,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "StringLiteral",
+      "offset": 11226,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11268,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11294,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "StringLiteral",
+      "offset": 11339,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "StringLiteral",
+      "offset": 11432,
+      "length": 10,
+      "value": "\"%02d%02d\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11484,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11941,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 267,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 590,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 799,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 809,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 851,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1103,
+      "length": 5,
+      "value": "0.893"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1150,
+      "length": 4,
+      "value": "0.63"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1260,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1310,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1539,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1549,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1558,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1568,
+      "length": 4,
+      "value": "0.65"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1661,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1671,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1426,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2472,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 2482,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 21,
+      "value": "\"세로카드 촬영\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "StringLiteral",
+      "offset": 514,
+      "length": 21,
+      "value": "\"가로카드 촬영\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "FloatLiteral",
+      "offset": 688,
+      "length": 5,
+      "value": "0.893"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "FloatLiteral",
+      "offset": 737,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "FloatLiteral",
+      "offset": 855,
+      "length": 4,
+      "value": "0.63"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "FloatLiteral",
+      "offset": 903,
+      "length": 7,
+      "value": "1.57873"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2336,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "StringLiteral",
+      "offset": 2394,
+      "length": 47,
+      "value": "\"카드를 사각형에 맞게 놓아주세요\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2472,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2625,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "StringLiteral",
+      "offset": 2731,
+      "length": 51,
+      "value": "\"체크카드, 신용카드 모두 가능합니다\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2813,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3659,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3738,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3809,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4236,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4349,
+      "length": 2,
+      "value": "-8"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4596,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4701,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 391,
+      "length": 16,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 632,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 995,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1033,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1069,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1104,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1554,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2207,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2233,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2512,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2537,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2615,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2621,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2627,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2887,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2933,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2980,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3035,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3086,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3135,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3186,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3231,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3276,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3323,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3371,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3420,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3469,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3556,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3575,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3649,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3664,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3690,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3696,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3740,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3755,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3781,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3787,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3831,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3846,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3872,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3879,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3923,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3939,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3964,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3992,
+      "length": 21,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4012,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 402,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 477,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 9,
+      "value": "\"iPhone2\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 808,
+      "length": 12,
+      "value": "\"hw.machine\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 990,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1009,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1245,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "FloatLiteral",
+      "offset": 479,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "FloatLiteral",
+      "offset": 515,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "FloatLiteral",
+      "offset": 542,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 573,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 658,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 809,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 858,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 907,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 962,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1014,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1066,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1116,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1168,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1215,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1258,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3786,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3798,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4242,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4294,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4419,
+      "length": 1,
+      "value": "3"
+    }
+  ]
+}

@@ -1,32 +1,47 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BrandPayBase
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import CommonCrypto
-import CryptoKit
 import Foundation
 import Security
 import Swift
 import UIKit
 import WebKit
 import _Concurrency
+import _StringProcessing
+@objc public class CreateHappyLoggerParams : ObjectiveC.NSObject {
+  final public let phase: BrandPayBase.Phase
+  final public let baseUrl: Swift.String
+  final public let debug: Swift.Bool
+  public init(phase: BrandPayBase.Phase, baseUrl: Swift.String, debug: Swift.Bool = false)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class HappyLoggerFactory : ObjectiveC.NSObject {
+  @objc public static func create(params: BrandPayBase.CreateHappyLoggerParams) -> any BrandPayBase.HappyLogger
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc public protocol AppBridgeType {
   typealias Controller = BrandPayBase.WebViewControllerType
   typealias SuccessHandler = ([Swift.String]) -> Swift.Void
-  typealias FailureHandler = (Swift.Error) -> Swift.Void
+  typealias FailureHandler = (any Swift.Error) -> Swift.Void
+  typealias InternalErrorHandler = (Foundation.NSError) -> Swift.Void
   @objc var name: Swift.String { get }
   @objc var skipQuotes: Swift.Bool { get }
-  @objc func checkAllowDomainAndHandle(with controller: Self.Controller, message: WebKit.WKScriptMessage)
-  @objc func handle(controller: Self.Controller, body: [Swift.String : Any], onSuccess: Self.SuccessHandler?, onError: Self.FailureHandler?)
+  @objc var internalErrorHandler: Self.InternalErrorHandler? { get set }
+  @objc func checkAllowDomainAndHandle(with controller: any BrandPayBase.WebViewControllerType, message: WebKit.WKScriptMessage)
+  @objc func handle(controller: any BrandPayBase.WebViewControllerType, body: [Swift.String : Any], onSuccess: Self.SuccessHandler?, onError: Self.FailureHandler?)
 }
 extension BrandPayBase.AppBridgeType {
-  public func isAllowedURL(with controller: BrandPayBase.WebViewControllerType, message: WebKit.WKScriptMessage) -> Swift.Bool
-  public func check(_ webViewController: BrandPayBase.WebViewControllerType) -> Swift.Bool
+  public func isAllowedURL(with controller: any BrandPayBase.WebViewControllerType, message: WebKit.WKScriptMessage) -> Swift.Bool
+  public func check(_ webViewController: any BrandPayBase.WebViewControllerType) -> Swift.Bool
 }
 extension BrandPayBase.AppBridgeType {
   public func nameOfSuccessHandler(body: [Swift.String : Any]) -> Swift.String?
   public func nameOfErrorHandler(body: [Swift.String : Any]) -> Swift.String?
-  public func callbackFunction(controller: BrandPayBase.WebViewControllerType, name: Swift.String) -> ([Swift.String]) -> Swift.Void
-  public func errorCallbackFunction(controller: BrandPayBase.WebViewControllerType, name: Swift.String) -> (Swift.Error) -> Swift.Void
+  public func callbackFunction(controller: any BrandPayBase.WebViewControllerType, name: Swift.String) -> ([Swift.String]) -> Swift.Void
+  public func errorCallbackFunction(controller: any BrandPayBase.WebViewControllerType, name: Swift.String) -> (any Swift.Error) -> Swift.Void
 }
 public enum BiometricType : Swift.String {
   case touchID
@@ -39,11 +54,12 @@ public enum BiometricType : Swift.String {
   }
 }
 @objc @_inheritsConvenienceInitializers final public class GetAppInfoAppBridge : ObjectiveC.NSObject, BrandPayBase.AppBridgeType {
+  @objc final public var internalErrorHandler: BrandPayBase.GetAppInfoAppBridge.InternalErrorHandler?
   @objc final public var name: Swift.String
   @objc final public let skipQuotes: Swift.Bool
   @objc override dynamic public init()
-  @objc final public func handle(controller: BrandPayBase.GetAppInfoAppBridge.Controller, body: [Swift.String : Any], onSuccess: BrandPayBase.GetAppInfoAppBridge.SuccessHandler?, onError: BrandPayBase.GetAppInfoAppBridge.FailureHandler?)
-  @objc final public func checkAllowDomainAndHandle(with controller: BrandPayBase.GetAppInfoAppBridge.Controller, message: WebKit.WKScriptMessage)
+  @objc final public func handle(controller: any BrandPayBase.WebViewControllerType, body: [Swift.String : Any], onSuccess: BrandPayBase.GetAppInfoAppBridge.SuccessHandler?, onError: BrandPayBase.GetAppInfoAppBridge.FailureHandler?)
+  @objc final public func checkAllowDomainAndHandle(with controller: any BrandPayBase.WebViewControllerType, message: WebKit.WKScriptMessage)
   @objc deinit
 }
 extension BrandPayBase.AES {
@@ -141,15 +157,73 @@ extension BrandPayBase.EncryptedData : Swift.BidirectionalCollection {
   public typealias Iterator = Swift.IndexingIterator<BrandPayBase.EncryptedData>
   public typealias SubSequence = Swift.Slice<BrandPayBase.EncryptedData>
 }
+@objc public enum LogLevel : Swift.Int {
+  case ERROR, INFO, WARN
+  public var name: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class LoggerContext : ObjectiveC.NSObject {
+  public var service: Swift.String?
+  public var deployVersion: Swift.String?
+  public var traceId: Swift.String?
+  public var globalTraceId: Swift.String?
+  public var deviceName: Swift.String?
+  public var mertId: Swift.String?
+  public var clientKey: Swift.String?
+  public var customerKey: Swift.String?
+  public var orderId: Swift.String?
+  public var paymentMethod: Swift.String?
+  public var screenName: Swift.String?
+  public var transaction: Swift.String?
+  public var uri: Swift.String?
+  public var context: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class LogPayload : BrandPayBase.LoggerContext {
+  public var level: BrandPayBase.LogLevel?
+  public var message: Swift.String?
+  public var exception: Swift.String?
+  public var tag: Swift.String?
+  public var isTossPaymentsError: Swift.Bool
+  public var processingTime: Swift.Int64
+  public var eventTimeStamp: Swift.Int64
+  @objc override dynamic public init()
+  public init(from context: BrandPayBase.LoggerContext)
+  public func serialize() -> Swift.String
+  @objc deinit
+}
+@objc public protocol HappyLogger {
+  @objc func initialize(with context: BrandPayBase.LoggerContext)
+  @objc func updateContext(_ block: (BrandPayBase.LoggerContext) -> Swift.Void)
+  @objc func log(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+  @objc func info(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+  @objc func error(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+  @objc func warn(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+}
 extension BrandPayBase.EncryptedString {
   public func appending(_ string: BrandPayBase.EncryptedString) -> BrandPayBase.EncryptedString
   public func appending(_ string: Swift.String) -> BrandPayBase.EncryptedString
+}
+@objc public protocol LogClient {
+  @objc func sendLog(payload: BrandPayBase.LogPayload)
 }
 extension BrandPayBase.EncryptedString {
   public func safePrefix(_ maxLength: Swift.Int) -> BrandPayBase.EncryptedString
   public func safeSuffix(_ maxLength: Swift.Int) -> BrandPayBase.EncryptedString
   public func safeRemoveFirst() -> BrandPayBase.EncryptedString
   public func safeRemoveLast() -> BrandPayBase.EncryptedString
+}
+@objc public class ClientLogV1 : ObjectiveC.NSObject, BrandPayBase.LogClient {
+  @objc public init?(baseUrl: Swift.String)
+  @objc public func sendLog(payload: BrandPayBase.LogPayload)
+  @objc deinit
 }
 @objc public class EncryptedString : ObjectiveC.NSObject, BrandPayBase.EncryptedValue, Swift.Codable, Swift.ExpressibleByStringLiteral {
   @objc override dynamic public var description: Swift.String {
@@ -162,7 +236,7 @@ extension BrandPayBase.EncryptedString {
   convenience public init(bytes buffer: Swift.UnsafePointer<Swift.Int8>, encoding: Swift.String.Encoding = .utf8, transform: ((Swift.UnsafeMutablePointer<Swift.Int8>, Swift.Int) -> Swift.Int)? = nil)
   convenience public init(_ value: Foundation.NSMutableString, transform: ((Swift.UnsafeMutablePointer<Swift.Int8>, Swift.Int) -> Swift.Int)? = nil)
   public init(_ value: Swift.String)
-  required convenience public init(from decoder: Swift.Decoder) throws
+  required convenience public init(from decoder: any Swift.Decoder) throws
   required convenience public init(stringLiteral value: Swift.String)
   @objc public var decrypted: Foundation.NSMutableString {
     @objc get
@@ -171,7 +245,7 @@ extension BrandPayBase.EncryptedString {
     get
   }
   public func withSafeBuffer<T>(_ block: (Swift.UnsafeMutablePointer<Swift.Int8>, Swift.Int) throws -> T) rethrows -> T
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public typealias ExtendedGraphemeClusterLiteralType = Swift.String
   public typealias SafeOutput = Foundation.NSMutableString
   public typealias StringLiteralType = Swift.String
@@ -209,6 +283,30 @@ extension Swift.String {
 extension Foundation.NSMutableString {
   public func toEncryptedString() -> BrandPayBase.EncryptedString
 }
+public enum BrandpayBiometricAuthError : Swift.Error, Foundation.LocalizedError {
+  case secureStorageInitFailed(message: Swift.String? = nil, traceId: Swift.String? = nil, underlying: (any Swift.Error)? = nil)
+  case secureStorageOpFailed(message: Swift.String? = nil, traceId: Swift.String? = nil, underlying: (any Swift.Error)? = nil)
+  case cryptoFailed(message: Swift.String? = nil, traceId: Swift.String? = nil, underlying: (any Swift.Error)? = nil)
+  case biometricAPIFailed(message: Swift.String? = nil, traceId: Swift.String? = nil, underlying: (any Swift.Error)? = nil)
+  case callbackNotRegistered(message: Swift.String? = nil, traceId: Swift.String? = nil)
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public var traceId: Swift.String? {
+    get
+  }
+  public var underlyingError: (any Swift.Error)? {
+    get
+  }
+}
+public let BrandpayBiometricErrorDomain: Swift.String
+public let BrandpayBiometricTraceIdKey: Swift.String
+extension BrandPayBase.BrandpayBiometricAuthError {
+  public var nsError: Foundation.NSError {
+    get
+  }
+  public static func from(_ nsError: Foundation.NSError) -> BrandPayBase.BrandpayBiometricAuthError?
+}
 public protocol EncryptedValue {
   associatedtype SafeOutput
   associatedtype UnsafeOutput
@@ -243,6 +341,16 @@ extension Swift.Array where Element : Swift.Encodable {
     get
   }
 }
+@objc @objcMembers public class SimpleHappyLogger : ObjectiveC.NSObject, BrandPayBase.HappyLogger {
+  @objc public init(logClient: any BrandPayBase.LogClient, debug: Swift.Bool = false)
+  @objc public func initialize(with context: BrandPayBase.LoggerContext)
+  @objc public func updateContext(_ block: (BrandPayBase.LoggerContext) -> Swift.Void)
+  @objc public func log(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+  @objc public func info(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+  @objc public func error(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+  @objc public func warn(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+  @objc deinit
+}
 extension Swift.String {
   public var urlEncoded: Swift.String {
     get
@@ -257,12 +365,12 @@ extension Foundation.Data {
   }
 }
 extension Swift.String {
-  public func boundingRect(with width: CoreGraphics.CGFloat = UIView.layoutFittingExpandedSize.width, attributes: [Foundation.NSAttributedString.Key : Any]? = nil, applyingLineHeight: Swift.Bool = true) -> CoreGraphics.CGRect
+  public func boundingRect(with width: CoreFoundation.CGFloat = UIView.layoutFittingExpandedSize.width, attributes: [Foundation.NSAttributedString.Key : Any]? = nil, applyingLineHeight: Swift.Bool = true) -> CoreFoundation.CGRect
 }
 extension Swift.String {
-  public func width(withConstrainedHeight height: CoreGraphics.CGFloat, font: UIKit.UIFont) -> CoreGraphics.CGFloat
-  public func height(withConstrainedWidth width: CoreGraphics.CGFloat, font: UIKit.UIFont) -> CoreGraphics.CGFloat
-  public func heightNoCeil(width: CoreGraphics.CGFloat, font: UIKit.UIFont) -> CoreGraphics.CGFloat
+  public func width(withConstrainedHeight height: CoreFoundation.CGFloat, font: UIKit.UIFont) -> CoreFoundation.CGFloat
+  public func height(withConstrainedWidth width: CoreFoundation.CGFloat, font: UIKit.UIFont) -> CoreFoundation.CGFloat
+  public func heightNoCeil(width: CoreFoundation.CGFloat, font: UIKit.UIFont) -> CoreFoundation.CGFloat
 }
 extension Swift.String {
   public subscript(bounds: Swift.CountableClosedRange<Swift.Int>) -> Swift.String {
@@ -310,6 +418,41 @@ public enum ValidateWeakPINResult : Swift.Equatable {
 }
 extension Swift.String {
   public func validateWeakPIN(phoneNumber: Swift.String? = nil, eightDigitBirthday: Swift.String? = nil, weakPINs: [Swift.String] = []) -> BrandPayBase.ValidateWeakPINResult
+}
+@objc public enum Phase : Swift.Int, Swift.CaseIterable {
+  case local = 0
+  case test = 1
+  case dev = 2
+  case staging = 3
+  case sandbox = 4
+  case live = 5
+  public var stringValue: Swift.String {
+    get
+  }
+  public func isSandbox() -> Swift.Bool
+  public func isDev() -> Swift.Bool
+  public func isStaging() -> Swift.Bool
+  public func isTest() -> Swift.Bool
+  public func isLocal() -> Swift.Bool
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [BrandPayBase.Phase]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [BrandPayBase.Phase] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class NoopHappyLogger : ObjectiveC.NSObject, BrandPayBase.HappyLogger {
+  @objc public func initialize(with context: BrandPayBase.LoggerContext)
+  @objc public func updateContext(_ block: (BrandPayBase.LoggerContext) -> Swift.Void)
+  @objc public func log(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+  @objc public func info(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+  @objc public func error(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+  @objc public func warn(_ build: (BrandPayBase.LogPayload) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
 }
 extension Swift.String {
   public var signForNumber: Swift.String {
@@ -369,12 +512,14 @@ extension Foundation.URL {
   public func belongsToAny(domains: [Swift.String]) -> Swift.Bool
   public static func isHost(_ host: Swift.String, belongsToDomain domain: Swift.String) -> Swift.Bool
 }
-@_hasMissingDesignatedInitializers final public class Logger {
+@_hasMissingDesignatedInitializers final public class ConsoleLogger {
   public static func debug(_ text: Swift.String)
   public static func warn(_ text: Swift.String)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class RSAEncryptor {
+  public typealias InternalErrorHandler = (Foundation.NSError) -> Swift.Void
+  final public var internalErrorHandler: BrandPayBase.RSAEncryptor.InternalErrorHandler?
   public init(modulus: Swift.String, exponent: Swift.String)
   final public func encrypt(plainText: Swift.String) -> Swift.String?
   @objc deinit
@@ -424,21 +569,23 @@ extension BrandPayBase.TelNumberParser {
   }
 }
 extension WebKit.WKWebView {
-  @_Concurrency.MainActor(unsafe) public func evaluateJavaScriptSafely(_ javaScriptString: Swift.String, completionHandler: ((Any?, Swift.Error?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func evaluateJavaScriptSafely(_ javaScriptString: Swift.String, completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
 }
+public var happyLogger: any BrandPayBase.HappyLogger
 public protocol WebScriptMessageHandlerType : AnyObject {
   typealias Controller = BrandPayBase.WebViewControllerType
-  var registeredAppBridges: [Swift.String : BrandPayBase.AppBridgeType] { get set }
-  var controller: Self.Controller? { get set }
-  func register(appBridge: BrandPayBase.AppBridgeType)
+  var registeredAppBridges: [Swift.String : any BrandPayBase.AppBridgeType] { get set }
+  var controller: (any BrandPayBase.WebViewControllerType)? { get set }
+  func register(appBridge: any BrandPayBase.AppBridgeType)
   func unregister(for name: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class WebScriptMessageHandler : ObjectiveC.NSObject, BrandPayBase.WebScriptMessageHandlerType {
   @objc override dynamic public init()
-  @objc public var registeredAppBridges: [Swift.String : BrandPayBase.AppBridgeType]
-  @objc public var controller: BrandPayBase.WebScriptMessageHandler.Controller?
-  @objc public func register(appBridge: BrandPayBase.AppBridgeType)
+  @objc public var registeredAppBridges: [Swift.String : any BrandPayBase.AppBridgeType]
+  @objc public var controller: (any BrandPayBase.WebViewControllerType)?
+  @objc public func register(appBridge: any BrandPayBase.AppBridgeType)
   @objc public func unregister(for name: Swift.String)
+  @objc public func handleInternalError(_ error: Foundation.NSError)
   @objc deinit
 }
 extension BrandPayBase.WebScriptMessageHandler : WebKit.WKScriptMessageHandler {
@@ -447,6 +594,7 @@ extension BrandPayBase.WebScriptMessageHandler : WebKit.WKScriptMessageHandler {
 @objc public protocol WebViewControllerType {
   @objc func installAppBridges()
   @objc func evaluateJavaScriptSafely(javaScriptString: Swift.String)
+  @objc optional func onErrorOccurred(_ error: Foundation.NSError)
 }
 extension BrandPayBase.BiometricType : Swift.Equatable {}
 extension BrandPayBase.BiometricType : Swift.Hashable {}
@@ -455,7 +603,13 @@ extension BrandPayBase.AES.Mode : Swift.Equatable {}
 extension BrandPayBase.AES.Mode : Swift.Hashable {}
 extension BrandPayBase.AES.Size : Swift.Equatable {}
 extension BrandPayBase.AES.Size : Swift.Hashable {}
+extension BrandPayBase.LogLevel : Swift.Equatable {}
+extension BrandPayBase.LogLevel : Swift.Hashable {}
+extension BrandPayBase.LogLevel : Swift.RawRepresentable {}
 extension BrandPayBase.ValidateWeakPINResult : Swift.Hashable {}
+extension BrandPayBase.Phase : Swift.Equatable {}
+extension BrandPayBase.Phase : Swift.Hashable {}
+extension BrandPayBase.Phase : Swift.RawRepresentable {}
 extension BrandPayBase.TelNumberFormatter.MaskingArea : Swift.Hashable {}
 extension BrandPayBase.TelNumberParser : Swift.Equatable {}
 extension BrandPayBase.TelNumberParser : Swift.Hashable {}
