@@ -1,0 +1,5023 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "BrandPayBase",
+        "printedName": "BrandPayBase",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetBiometricAuthMethodsAppBridge",
+        "printedName": "GetBiometricAuthMethodsAppBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internalErrorHandler",
+            "printedName": "internalErrorHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge(py)internalErrorHandler",
+            "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "internalErrorHandler",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge(im)internalErrorHandler",
+                "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "internalErrorHandler",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge(im)setInternalErrorHandler:",
+                "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "setInternalErrorHandler:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface03GetA20AuthMethodsAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge(py)name",
+            "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC4nameSSvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge(im)name",
+                "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC4nameSSvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge(im)setName:",
+                "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC4nameSSvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface03GetA20AuthMethodsAppBridgeC4nameSSvM",
+                "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC4nameSSvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "skipQuotes",
+            "printedName": "skipQuotes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge(py)skipQuotes",
+            "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC10skipQuotesSbvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "skipQuotes",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge(im)skipQuotes",
+                "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC10skipQuotesSbvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "skipQuotes",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetBiometricAuthMethodsAppBridge",
+                "printedName": "BiometricInterface.GetBiometricAuthMethodsAppBridge",
+                "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge(im)init",
+            "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeCACycfc",
+            "moduleName": "BiometricInterface",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(controller:body:onSuccess:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge(im)handleWithController:body:onSuccess:onError:",
+            "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC6handle10controller4body9onSuccess0K5Errory12BrandPayBase21WebViewControllerType_p_SDySSypGySaySSGcSgys0M0_pcSgtF",
+            "moduleName": "BiometricInterface",
+            "objc_name": "handleWithController:body:onSuccess:onError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkAllowDomainAndHandle",
+            "printedName": "checkAllowDomainAndHandle(with:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge(im)checkAllowDomainAndHandleWith:message:",
+            "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC25checkAllowDomainAndHandle4with7messagey12BrandPayBase21WebViewControllerType_p_So15WKScriptMessageCtF",
+            "moduleName": "BiometricInterface",
+            "objc_name": "checkAllowDomainAndHandleWith:message:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BiometricInterface@objc(cs)GetBiometricAuthMethodsAppBridge",
+        "mangledName": "$s18BiometricInterface03GetA20AuthMethodsAppBridgeC",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AppBridgeType",
+            "printedName": "AppBridgeType",
+            "usr": "c:@M@BrandPayBase@objc(pl)AppBridgeType",
+            "mangledName": "$s12BrandPayBase13AppBridgeTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "BrandPayBase",
+        "printedName": "BrandPayBase",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HasBiometricAuthAppBridge",
+        "printedName": "HasBiometricAuthAppBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internalErrorHandler",
+            "printedName": "internalErrorHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge(py)internalErrorHandler",
+            "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "internalErrorHandler",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge(im)internalErrorHandler",
+                "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "internalErrorHandler",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge(im)setInternalErrorHandler:",
+                "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "setInternalErrorHandler:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface03HasA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge(py)name",
+            "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC4nameSSvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge(im)name",
+                "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC4nameSSvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge(im)setName:",
+                "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC4nameSSvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface03HasA13AuthAppBridgeC4nameSSvM",
+                "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC4nameSSvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "skipQuotes",
+            "printedName": "skipQuotes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge(py)skipQuotes",
+            "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC10skipQuotesSbvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "skipQuotes",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge(im)skipQuotes",
+                "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC10skipQuotesSbvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "skipQuotes",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HasBiometricAuthAppBridge",
+                "printedName": "BiometricInterface.HasBiometricAuthAppBridge",
+                "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge(im)init",
+            "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeCACycfc",
+            "moduleName": "BiometricInterface",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(controller:body:onSuccess:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge(im)handleWithController:body:onSuccess:onError:",
+            "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC6handle10controller4body9onSuccess0J5Errory12BrandPayBase21WebViewControllerType_p_SDySSypGySaySSGcSgys0L0_pcSgtF",
+            "moduleName": "BiometricInterface",
+            "objc_name": "handleWithController:body:onSuccess:onError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkAllowDomainAndHandle",
+            "printedName": "checkAllowDomainAndHandle(with:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge(im)checkAllowDomainAndHandleWith:message:",
+            "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC25checkAllowDomainAndHandle4with7messagey12BrandPayBase21WebViewControllerType_p_So15WKScriptMessageCtF",
+            "moduleName": "BiometricInterface",
+            "objc_name": "checkAllowDomainAndHandleWith:message:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BiometricInterface@objc(cs)HasBiometricAuthAppBridge",
+        "mangledName": "$s18BiometricInterface03HasA13AuthAppBridgeC",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AppBridgeType",
+            "printedName": "AppBridgeType",
+            "usr": "c:@M@BrandPayBase@objc(pl)AppBridgeType",
+            "mangledName": "$s12BrandPayBase13AppBridgeTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "BrandPayBase",
+        "printedName": "BrandPayBase",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RegisterBiometricAuthAppBridge",
+        "printedName": "RegisterBiometricAuthAppBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internalErrorHandler",
+            "printedName": "internalErrorHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge(py)internalErrorHandler",
+            "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "internalErrorHandler",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge(im)internalErrorHandler",
+                "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "internalErrorHandler",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge(im)setInternalErrorHandler:",
+                "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "setInternalErrorHandler:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface08RegisterA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge(py)name",
+            "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC4nameSSvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge(im)name",
+                "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC4nameSSvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge(im)setName:",
+                "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC4nameSSvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface08RegisterA13AuthAppBridgeC4nameSSvM",
+                "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC4nameSSvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "skipQuotes",
+            "printedName": "skipQuotes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge(py)skipQuotes",
+            "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC10skipQuotesSbvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "skipQuotes",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge(im)skipQuotes",
+                "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC10skipQuotesSbvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "skipQuotes",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RegisterBiometricAuthAppBridge",
+                "printedName": "BiometricInterface.RegisterBiometricAuthAppBridge",
+                "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge(im)init",
+            "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeCACycfc",
+            "moduleName": "BiometricInterface",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(controller:body:onSuccess:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge(im)handleWithController:body:onSuccess:onError:",
+            "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC6handle10controller4body9onSuccess0J5Errory12BrandPayBase21WebViewControllerType_p_SDySSypGySaySSGcSgys0L0_pcSgtF",
+            "moduleName": "BiometricInterface",
+            "objc_name": "handleWithController:body:onSuccess:onError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkAllowDomainAndHandle",
+            "printedName": "checkAllowDomainAndHandle(with:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge(im)checkAllowDomainAndHandleWith:message:",
+            "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC25checkAllowDomainAndHandle4with7messagey12BrandPayBase21WebViewControllerType_p_So15WKScriptMessageCtF",
+            "moduleName": "BiometricInterface",
+            "objc_name": "checkAllowDomainAndHandleWith:message:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BiometricInterface@objc(cs)RegisterBiometricAuthAppBridge",
+        "mangledName": "$s18BiometricInterface08RegisterA13AuthAppBridgeC",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AppBridgeType",
+            "printedName": "AppBridgeType",
+            "usr": "c:@M@BrandPayBase@objc(pl)AppBridgeType",
+            "mangledName": "$s12BrandPayBase13AppBridgeTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "BrandPayBase",
+        "printedName": "BrandPayBase",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnregisterBiometricAuthAppBridge",
+        "printedName": "UnregisterBiometricAuthAppBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internalErrorHandler",
+            "printedName": "internalErrorHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge(py)internalErrorHandler",
+            "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "internalErrorHandler",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge(im)internalErrorHandler",
+                "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "internalErrorHandler",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge(im)setInternalErrorHandler:",
+                "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "setInternalErrorHandler:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface010UnregisterA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge(py)name",
+            "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC4nameSSvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge(im)name",
+                "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC4nameSSvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge(im)setName:",
+                "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC4nameSSvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface010UnregisterA13AuthAppBridgeC4nameSSvM",
+                "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC4nameSSvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "skipQuotes",
+            "printedName": "skipQuotes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge(py)skipQuotes",
+            "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC10skipQuotesSbvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "skipQuotes",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge(im)skipQuotes",
+                "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC10skipQuotesSbvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "skipQuotes",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnregisterBiometricAuthAppBridge",
+                "printedName": "BiometricInterface.UnregisterBiometricAuthAppBridge",
+                "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge(im)init",
+            "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeCACycfc",
+            "moduleName": "BiometricInterface",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(controller:body:onSuccess:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge(im)handleWithController:body:onSuccess:onError:",
+            "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC6handle10controller4body9onSuccess0J5Errory12BrandPayBase21WebViewControllerType_p_SDySSypGySaySSGcSgys0L0_pcSgtF",
+            "moduleName": "BiometricInterface",
+            "objc_name": "handleWithController:body:onSuccess:onError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkAllowDomainAndHandle",
+            "printedName": "checkAllowDomainAndHandle(with:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge(im)checkAllowDomainAndHandleWith:message:",
+            "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC25checkAllowDomainAndHandle4with7messagey12BrandPayBase21WebViewControllerType_p_So15WKScriptMessageCtF",
+            "moduleName": "BiometricInterface",
+            "objc_name": "checkAllowDomainAndHandleWith:message:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BiometricInterface@objc(cs)UnregisterBiometricAuthAppBridge",
+        "mangledName": "$s18BiometricInterface010UnregisterA13AuthAppBridgeC",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AppBridgeType",
+            "printedName": "AppBridgeType",
+            "usr": "c:@M@BrandPayBase@objc(pl)AppBridgeType",
+            "mangledName": "$s12BrandPayBase13AppBridgeTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BrandPayBase",
+        "printedName": "BrandPayBase",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VerifyBiometricAuthAppBridge",
+        "printedName": "VerifyBiometricAuthAppBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internalErrorHandler",
+            "printedName": "internalErrorHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge(py)internalErrorHandler",
+            "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "internalErrorHandler",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge(im)internalErrorHandler",
+                "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "internalErrorHandler",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge(im)setInternalErrorHandler:",
+                "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "setInternalErrorHandler:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface06VerifyA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge(py)name",
+            "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC4nameSSvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge(im)name",
+                "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC4nameSSvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge(im)setName:",
+                "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC4nameSSvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface06VerifyA13AuthAppBridgeC4nameSSvM",
+                "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC4nameSSvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "skipQuotes",
+            "printedName": "skipQuotes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge(py)skipQuotes",
+            "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC10skipQuotesSbvp",
+            "moduleName": "BiometricInterface",
+            "objc_name": "skipQuotes",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge(im)skipQuotes",
+                "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC10skipQuotesSbvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "objc_name": "skipQuotes",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VerifyBiometricAuthAppBridge",
+                "printedName": "BiometricInterface.VerifyBiometricAuthAppBridge",
+                "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge(im)init",
+            "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeCACycfc",
+            "moduleName": "BiometricInterface",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(controller:body:onSuccess:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge(im)handleWithController:body:onSuccess:onError:",
+            "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC6handle10controller4body9onSuccess0J5Errory12BrandPayBase21WebViewControllerType_p_SDySSypGySaySSGcSgys0L0_pcSgtF",
+            "moduleName": "BiometricInterface",
+            "objc_name": "handleWithController:body:onSuccess:onError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkAllowDomainAndHandle",
+            "printedName": "checkAllowDomainAndHandle(with:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewControllerType",
+                "printedName": "BrandPayBase.WebViewControllerType",
+                "usr": "c:@M@BrandPayBase@objc(pl)WebViewControllerType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge(im)checkAllowDomainAndHandleWith:message:",
+            "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC25checkAllowDomainAndHandle4with7messagey12BrandPayBase21WebViewControllerType_p_So15WKScriptMessageCtF",
+            "moduleName": "BiometricInterface",
+            "objc_name": "checkAllowDomainAndHandleWith:message:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BiometricInterface@objc(cs)VerifyBiometricAuthAppBridge",
+        "mangledName": "$s18BiometricInterface06VerifyA13AuthAppBridgeC",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AppBridgeType",
+            "printedName": "AppBridgeType",
+            "usr": "c:@M@BrandPayBase@objc(pl)AppBridgeType",
+            "mangledName": "$s12BrandPayBase13AppBridgeTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "BrandPayBase",
+        "printedName": "BrandPayBase",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BiometricError",
+        "printedName": "BiometricError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "canceled",
+            "printedName": "canceled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BiometricInterface.BiometricError.Type) -> BiometricInterface.BiometricError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricError",
+                    "printedName": "BiometricInterface.BiometricError",
+                    "usr": "s:18BiometricInterface0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BiometricInterface.BiometricError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricError",
+                        "printedName": "BiometricInterface.BiometricError",
+                        "usr": "s:18BiometricInterface0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18BiometricInterface0A5ErrorO8canceledyA2CmF",
+            "mangledName": "$s18BiometricInterface0A5ErrorO8canceledyA2CmF",
+            "moduleName": "BiometricInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "failed",
+            "printedName": "failed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BiometricInterface.BiometricError.Type) -> BiometricInterface.BiometricError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricError",
+                    "printedName": "BiometricInterface.BiometricError",
+                    "usr": "s:18BiometricInterface0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BiometricInterface.BiometricError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricError",
+                        "printedName": "BiometricInterface.BiometricError",
+                        "usr": "s:18BiometricInterface0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18BiometricInterface0A5ErrorO6failedyA2CmF",
+            "mangledName": "$s18BiometricInterface0A5ErrorO6failedyA2CmF",
+            "moduleName": "BiometricInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "invalid",
+            "printedName": "invalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BiometricInterface.BiometricError.Type) -> BiometricInterface.BiometricError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricError",
+                    "printedName": "BiometricInterface.BiometricError",
+                    "usr": "s:18BiometricInterface0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BiometricInterface.BiometricError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricError",
+                        "printedName": "BiometricInterface.BiometricError",
+                        "usr": "s:18BiometricInterface0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18BiometricInterface0A5ErrorO7invalidyA2CmF",
+            "mangledName": "$s18BiometricInterface0A5ErrorO7invalidyA2CmF",
+            "moduleName": "BiometricInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricInterface0A5ErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s18BiometricInterface0A5ErrorO16errorDescriptionSSSgvp",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A5ErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s18BiometricInterface0A5ErrorO16errorDescriptionSSSgvg",
+                "moduleName": "BiometricInterface",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failureReason",
+            "printedName": "failureReason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricInterface0A5ErrorO13failureReasonSSSgvp",
+            "mangledName": "$s18BiometricInterface0A5ErrorO13failureReasonSSSgvp",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A5ErrorO13failureReasonSSSgvg",
+                "mangledName": "$s18BiometricInterface0A5ErrorO13failureReasonSSSgvg",
+                "moduleName": "BiometricInterface",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiometricError",
+                "printedName": "BiometricInterface.BiometricError",
+                "usr": "s:18BiometricInterface0A5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiometricError",
+                "printedName": "BiometricInterface.BiometricError",
+                "usr": "s:18BiometricInterface0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricInterface0A5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18BiometricInterface0A5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "BiometricInterface",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricInterface0A5ErrorO9hashValueSivp",
+            "mangledName": "$s18BiometricInterface0A5ErrorO9hashValueSivp",
+            "moduleName": "BiometricInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A5ErrorO9hashValueSivg",
+                "mangledName": "$s18BiometricInterface0A5ErrorO9hashValueSivg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricInterface0A5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18BiometricInterface0A5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "BiometricInterface",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18BiometricInterface0A5ErrorO",
+        "mangledName": "$s18BiometricInterface0A5ErrorO",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BiometricAuthenticationService",
+        "printedName": "BiometricAuthenticationService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internalErrorHandler",
+            "printedName": "internalErrorHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricInterface0A21AuthenticationServiceC20internalErrorHandlerySo7NSErrorCcSgvp",
+            "mangledName": "$s18BiometricInterface0A21AuthenticationServiceC20internalErrorHandlerySo7NSErrorCcSgvp",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A21AuthenticationServiceC20internalErrorHandlerySo7NSErrorCcSgvg",
+                "mangledName": "$s18BiometricInterface0A21AuthenticationServiceC20internalErrorHandlerySo7NSErrorCcSgvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A21AuthenticationServiceC20internalErrorHandlerySo7NSErrorCcSgvs",
+                "mangledName": "$s18BiometricInterface0A21AuthenticationServiceC20internalErrorHandlerySo7NSErrorCcSgvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A21AuthenticationServiceC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "mangledName": "$s18BiometricInterface0A21AuthenticationServiceC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BiometricAuthenticationService",
+                "printedName": "BiometricInterface.BiometricAuthenticationService",
+                "usr": "s:18BiometricInterface0A21AuthenticationServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18BiometricInterface0A21AuthenticationServiceCACycfc",
+            "mangledName": "$s18BiometricInterface0A21AuthenticationServiceCACycfc",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "authenticate",
+            "printedName": "authenticate(resultHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.Data, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.Data, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricInterface0A21AuthenticationServiceC12authenticate13resultHandleryys6ResultOy10Foundation4DataVs5Error_pGc_tF",
+            "mangledName": "$s18BiometricInterface0A21AuthenticationServiceC12authenticate13resultHandleryys6ResultOy10Foundation4DataVs5Error_pGc_tF",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "biometricType",
+            "printedName": "biometricType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LABiometryType",
+                "printedName": "LocalAuthentication.LABiometryType",
+                "usr": "c:@E@LABiometryType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricInterface0A21AuthenticationServiceC13biometricTypeSo010LABiometryF0Vvp",
+            "mangledName": "$s18BiometricInterface0A21AuthenticationServiceC13biometricTypeSo010LABiometryF0Vvp",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LABiometryType",
+                    "printedName": "LocalAuthentication.LABiometryType",
+                    "usr": "c:@E@LABiometryType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A21AuthenticationServiceC13biometricTypeSo010LABiometryF0Vvg",
+                "mangledName": "$s18BiometricInterface0A21AuthenticationServiceC13biometricTypeSo010LABiometryF0Vvg",
+                "moduleName": "BiometricInterface",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "prepareBioAuth",
+            "printedName": "prepareBioAuth()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LAContext",
+                "printedName": "LocalAuthentication.LAContext",
+                "usr": "c:objc(cs)LAContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricInterface0A21AuthenticationServiceC14prepareBioAuthSo9LAContextCyKF",
+            "mangledName": "$s18BiometricInterface0A21AuthenticationServiceC14prepareBioAuthSo9LAContextCyKF",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18BiometricInterface0A21AuthenticationServiceC",
+        "mangledName": "$s18BiometricInterface0A21AuthenticationServiceC",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BioAuthError",
+        "printedName": "BioAuthError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userCancel",
+            "printedName": "userCancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BiometricInterface.BioAuthError.Type) -> BiometricInterface.BioAuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BioAuthError",
+                    "printedName": "BiometricInterface.BioAuthError",
+                    "usr": "s:18BiometricInterface12BioAuthErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BiometricInterface.BioAuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BioAuthError",
+                        "printedName": "BiometricInterface.BioAuthError",
+                        "usr": "s:18BiometricInterface12BioAuthErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18BiometricInterface12BioAuthErrorO10userCancelyA2CmF",
+            "mangledName": "$s18BiometricInterface12BioAuthErrorO10userCancelyA2CmF",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userNeedPassword",
+            "printedName": "userNeedPassword",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BiometricInterface.BioAuthError.Type) -> BiometricInterface.BioAuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BioAuthError",
+                    "printedName": "BiometricInterface.BioAuthError",
+                    "usr": "s:18BiometricInterface12BioAuthErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BiometricInterface.BioAuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BioAuthError",
+                        "printedName": "BiometricInterface.BioAuthError",
+                        "usr": "s:18BiometricInterface12BioAuthErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18BiometricInterface12BioAuthErrorO16userNeedPasswordyA2CmF",
+            "mangledName": "$s18BiometricInterface12BioAuthErrorO16userNeedPasswordyA2CmF",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bioAuthNotEnabled",
+            "printedName": "bioAuthNotEnabled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BiometricInterface.BioAuthError.Type) -> BiometricInterface.BioAuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BioAuthError",
+                    "printedName": "BiometricInterface.BioAuthError",
+                    "usr": "s:18BiometricInterface12BioAuthErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BiometricInterface.BioAuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BioAuthError",
+                        "printedName": "BiometricInterface.BioAuthError",
+                        "usr": "s:18BiometricInterface12BioAuthErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18BiometricInterface12BioAuthErrorO03bioD10NotEnabledyA2CmF",
+            "mangledName": "$s18BiometricInterface12BioAuthErrorO03bioD10NotEnabledyA2CmF",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bioAuthNeedReregister",
+            "printedName": "bioAuthNeedReregister",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BiometricInterface.BioAuthError.Type) -> BiometricInterface.BioAuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BioAuthError",
+                    "printedName": "BiometricInterface.BioAuthError",
+                    "usr": "s:18BiometricInterface12BioAuthErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BiometricInterface.BioAuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BioAuthError",
+                        "printedName": "BiometricInterface.BioAuthError",
+                        "usr": "s:18BiometricInterface12BioAuthErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18BiometricInterface12BioAuthErrorO03bioD14NeedReregisteryA2CmF",
+            "mangledName": "$s18BiometricInterface12BioAuthErrorO03bioD14NeedReregisteryA2CmF",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BiometricInterface.BioAuthError.Type) -> BiometricInterface.BioAuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BioAuthError",
+                    "printedName": "BiometricInterface.BioAuthError",
+                    "usr": "s:18BiometricInterface12BioAuthErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BiometricInterface.BioAuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BioAuthError",
+                        "printedName": "BiometricInterface.BioAuthError",
+                        "usr": "s:18BiometricInterface12BioAuthErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18BiometricInterface12BioAuthErrorO7unknownyA2CmF",
+            "mangledName": "$s18BiometricInterface12BioAuthErrorO7unknownyA2CmF",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricInterface12BioAuthErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s18BiometricInterface12BioAuthErrorO16errorDescriptionSSSgvp",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface12BioAuthErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s18BiometricInterface12BioAuthErrorO16errorDescriptionSSSgvg",
+                "moduleName": "BiometricInterface",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BioAuthError",
+                "printedName": "BiometricInterface.BioAuthError",
+                "usr": "s:18BiometricInterface12BioAuthErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BioAuthError",
+                "printedName": "BiometricInterface.BioAuthError",
+                "usr": "s:18BiometricInterface12BioAuthErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricInterface12BioAuthErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18BiometricInterface12BioAuthErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "BiometricInterface",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricInterface12BioAuthErrorO9hashValueSivp",
+            "mangledName": "$s18BiometricInterface12BioAuthErrorO9hashValueSivp",
+            "moduleName": "BiometricInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface12BioAuthErrorO9hashValueSivg",
+                "mangledName": "$s18BiometricInterface12BioAuthErrorO9hashValueSivg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricInterface12BioAuthErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18BiometricInterface12BioAuthErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "BiometricInterface",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18BiometricInterface12BioAuthErrorO",
+        "mangledName": "$s18BiometricInterface12BioAuthErrorO",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BrandPayBase",
+        "printedName": "BrandPayBase",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BiometricAuthenticationProvider",
+        "printedName": "BiometricAuthenticationProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internalErrorHandler",
+            "printedName": "internalErrorHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricInterface0A22AuthenticationProviderC20internalErrorHandlerySo7NSErrorCcSgvp",
+            "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC20internalErrorHandlerySo7NSErrorCcSgvp",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A22AuthenticationProviderC20internalErrorHandlerySo7NSErrorCcSgvg",
+                "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC20internalErrorHandlerySo7NSErrorCcSgvg",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.NSError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A22AuthenticationProviderC20internalErrorHandlerySo7NSErrorCcSgvs",
+                "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC20internalErrorHandlerySo7NSErrorCcSgvs",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A22AuthenticationProviderC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC20internalErrorHandlerySo7NSErrorCcSgvM",
+                "moduleName": "BiometricInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "biometricType",
+            "printedName": "biometricType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BiometricType",
+                "printedName": "BrandPayBase.BiometricType",
+                "usr": "s:12BrandPayBase13BiometricTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricInterface0A22AuthenticationProviderC13biometricType12BrandPayBase0aF0Ovp",
+            "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC13biometricType12BrandPayBase0aF0Ovp",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricType",
+                    "printedName": "BrandPayBase.BiometricType",
+                    "usr": "s:12BrandPayBase13BiometricTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A22AuthenticationProviderC13biometricType12BrandPayBase0aF0Ovg",
+                "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC13biometricType12BrandPayBase0aF0Ovg",
+                "moduleName": "BiometricInterface",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEnabled",
+            "printedName": "isEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18BiometricInterface0A22AuthenticationProviderC9isEnabledSbvp",
+            "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC9isEnabledSbvp",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BiometricInterface0A22AuthenticationProviderC9isEnabledSbvg",
+                "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC9isEnabledSbvg",
+                "moduleName": "BiometricInterface",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(encryptedPassword:resultHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EncryptedString",
+                "printedName": "BrandPayBase.EncryptedString",
+                "usr": "c:@M@BrandPayBase@objc(cs)EncryptedString"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.Data, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.Data, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricInterface0A22AuthenticationProviderC8register17encryptedPassword13resultHandlery12BrandPayBase15EncryptedStringC_ys6ResultOy10Foundation4DataVs5Error_pGctF",
+            "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC8register17encryptedPassword13resultHandlery12BrandPayBase15EncryptedStringC_ys6ResultOy10Foundation4DataVs5Error_pGctF",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authenticate",
+            "printedName": "authenticate(resultHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<BrandPayBase.EncryptedString, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<BrandPayBase.EncryptedString, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EncryptedString",
+                        "printedName": "BrandPayBase.EncryptedString",
+                        "usr": "c:@M@BrandPayBase@objc(cs)EncryptedString"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricInterface0A22AuthenticationProviderC12authenticate13resultHandleryys6ResultOy12BrandPayBase15EncryptedStringCs5Error_pGc_tF",
+            "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC12authenticate13resultHandleryys6ResultOy12BrandPayBase15EncryptedStringCs5Error_pGc_tF",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "delete",
+            "printedName": "delete(resultHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BiometricInterface0A22AuthenticationProviderC6delete13resultHandleryys6ResultOySbs5Error_pGc_tF",
+            "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC6delete13resultHandleryys6ResultOySbs5Error_pGc_tF",
+            "moduleName": "BiometricInterface",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18BiometricInterface0A22AuthenticationProviderC",
+        "mangledName": "$s18BiometricInterface0A22AuthenticationProviderC",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BrandPayBase",
+        "printedName": "BrandPayBase",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 25,
+      "value": "\"getBiometricAuthMethods\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 463,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "kind": "Array",
+      "offset": 1023,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1056,
+      "length": 29,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1080,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1083,
+      "length": 4,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 18,
+      "value": "\"hasBiometricAuth\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 442,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 832,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 854,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
+      "length": 23,
+      "value": "\"registerBiometricAuth\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 520,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 850,
+      "length": 8,
+      "value": "\"params\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 913,
+      "length": 16,
+      "value": "\"biometricToken\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 35,
+      "value": "\"webView bridge message parse fail\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1098,
+      "length": 34,
+      "value": "\"missing biometricToken parameter\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "kind": "Array",
+      "offset": 1500,
+      "length": 11,
+      "value": "[\"success\"]"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1636,
+      "length": 29,
+      "value": "\"registerBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 25,
+      "value": "\"unregisterBiometricAuth\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 526,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
+      "kind": "Array",
+      "offset": 1014,
+      "length": 8,
+      "value": "[\"true\"]"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
+      "kind": "Array",
+      "offset": 1078,
+      "length": 9,
+      "value": "[\"false\"]"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 21,
+      "value": "\"verifyBiometricAuth\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 439,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 808,
+      "length": 8,
+      "value": "\"params\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 872,
+      "length": 9,
+      "value": "\"modulus\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 931,
+      "length": 10,
+      "value": "\"exponent\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1039,
+      "length": 35,
+      "value": "\"webView bridge message parse fail\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1111,
+      "length": 37,
+      "value": "\"missing modulus, exponent parameter\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1840,
+      "length": 27,
+      "value": "\"verifyBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 21,
+      "value": "\"생체인증 취소\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 21,
+      "value": "\"생체인증 실패\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 620,
+      "length": 34,
+      "value": "\"생체인증 유효하지 않음\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 781,
+      "length": 20,
+      "value": "\"BIOMETRIC_CANCELED\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 843,
+      "length": 18,
+      "value": "\"BIOMETRIC_FAILED\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 904,
+      "length": 19,
+      "value": "\"BIOMETRIC_INVALID\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1187,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 1719,
+      "length": 59,
+      "value": "\"getBiometricAuthMethods error, return fallback empty list\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3083,
+      "length": 9,
+      "value": "\"Face ID\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3127,
+      "length": 10,
+      "value": "\"Touch ID\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3166,
+      "length": 15,
+      "value": "\"생체 인증\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 81,
+      "value": "\" 상황이 지속적으로 발생할 경우 고객센터로 문의바랍니다.\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 84,
+      "value": "\"생체인증을 취소하였습니다. 비밀번호로 계속 진행해 주세요.\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "kind": "StringLiteral",
+      "offset": 933,
+      "length": 45,
+      "value": "\"비밀번호로 계속 진행해 주세요.\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "kind": "StringLiteral",
+      "offset": 1086,
+      "length": 116,
+      "value": "\"생체인증정보가 변경되었습니다. 비밀번호로 진행 후 다시 생체인증을 등록해주세요.\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "kind": "StringLiteral",
+      "offset": 1243,
+      "length": 34,
+      "value": "\"오류가 발생하였습니다.\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 49,
+      "value": "\"BioAuthCertificationService.isEnabledBioAuthKey\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1364,
+      "length": 24,
+      "value": "\"hasBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1700,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3144,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 3246,
+      "length": 31,
+      "value": "\"unregisterBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 4514,
+      "length": 27,
+      "value": "\"verifyBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 4582,
+      "length": 30,
+      "value": "\"token not exists in keychain\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5468,
+      "length": 27,
+      "value": "\"verifyBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5536,
+      "length": 15,
+      "value": "\"decrypt error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 6082,
+      "length": 27,
+      "value": "\"verifyBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 6150,
+      "length": 33,
+      "value": "\"decrypted value stringify error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 6453,
+      "length": 27,
+      "value": "\"verifyBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 7382,
+      "length": 29,
+      "value": "\"registerBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 8044,
+      "length": 29,
+      "value": "\"registerBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "kind": "StringLiteral",
+      "offset": 2172,
+      "length": 28,
+      "value": "\"KeychainService.data error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "kind": "StringLiteral",
+      "offset": 3605,
+      "length": 27,
+      "value": "\"KeychainService.set error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "kind": "StringLiteral",
+      "offset": 4301,
+      "length": 34,
+      "value": "\"KeychainService.deleteData error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "kind": "StringLiteral",
+      "offset": 5352,
+      "length": 30,
+      "value": "\"KeychainService.update error\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 6,
+      "value": "\"copy\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 5,
+      "value": "\"add\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
+      "kind": "StringLiteral",
+      "offset": 495,
+      "length": 8,
+      "value": "\"update\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 8,
+      "value": "\"delete\""
+    }
+  ]
+}

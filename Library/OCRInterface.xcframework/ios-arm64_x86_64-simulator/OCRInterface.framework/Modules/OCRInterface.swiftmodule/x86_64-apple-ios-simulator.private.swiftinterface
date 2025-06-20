@@ -1,0 +1,86 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OCRInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import BrandPayBase
+import FinCubeOcrSDK
+import Foundation
+import MobileCoreServices
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+public enum OCRInterfaceAsset {
+  public static let icnIosClose: OCRInterface.OCRInterfaceImages
+}
+public struct OCRInterfaceImages {
+  public var name: Swift.String {
+    get
+  }
+  public typealias Image = UIKit.UIImage
+  public var image: OCRInterface.OCRInterfaceImages.Image {
+    get
+  }
+}
+extension UIKit.UIImage {
+  @available(macOS, deprecated, message: "This initializer is unsafe on macOS, please use the OCRInterfaceImages.image property")
+  convenience public init?(asset: OCRInterface.OCRInterfaceImages)
+}
+@_inheritsConvenienceInitializers @objc public class OCRInterfaceResources : ObjectiveC.NSObject {
+  @objc public class var bundle: Foundation.Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class IsOCRAvailableAppBridge : ObjectiveC.NSObject, BrandPayBase.AppBridgeType {
+  @objc final public var internalErrorHandler: OCRInterface.IsOCRAvailableAppBridge.InternalErrorHandler?
+  @objc final public var name: Swift.String
+  @objc final public let skipQuotes: Swift.Bool
+  @objc override dynamic public init()
+  @objc final public func handle(controller: any BrandPayBase.WebViewControllerType, body: [Swift.String : Any], onSuccess: OCRInterface.IsOCRAvailableAppBridge.SuccessHandler?, onError: OCRInterface.IsOCRAvailableAppBridge.FailureHandler?)
+  @objc final public func checkAllowDomainAndHandle(with controller: any BrandPayBase.WebViewControllerType, message: WebKit.WKScriptMessage)
+  @objc deinit
+}
+@objc final public class ScanOCRCardAppBridge : ObjectiveC.NSObject, BrandPayBase.AppBridgeType {
+  @objc final public var internalErrorHandler: OCRInterface.ScanOCRCardAppBridge.InternalErrorHandler?
+  @objc final public var name: Swift.String
+  @objc final public let skipQuotes: Swift.Bool
+  @objc public init(licenseKeyFile: Swift.String)
+  @objc final public func handle(controller: any BrandPayBase.WebViewControllerType, body: [Swift.String : Any], onSuccess: OCRInterface.ScanOCRCardAppBridge.SuccessHandler?, onError: OCRInterface.ScanOCRCardAppBridge.FailureHandler?)
+  @objc final public func checkAllowDomainAndHandle(with controller: any BrandPayBase.WebViewControllerType, message: WebKit.WKScriptMessage)
+  @objc deinit
+}
+public protocol OcrCameraPreviewDelegate : AnyObject {
+  func scanResult(_ result: OCRInterface.OcrScanResult)
+  func didExpiredDate()
+  func didInvalidPackageName()
+}
+public protocol OcrCameraPreviewType : AnyObject {
+  var preview: AVFoundation.AVCaptureVideoPreviewLayer { get }
+  var videoFrameDelegate: (any OCRInterface.OcrCameraPreviewDelegate)? { get set }
+  func startSession()
+  func stopSession()
+  func setIDScannerMode(mode: Swift.Int)
+  func setOcrScannerType(_ type: Swift.Int)
+  func setGuideRect(horizontalOffset: Swift.Float, verticalOffset: Swift.Float, scale: Swift.Float, orientation: Swift.Int)
+  func changeGuideRect(horizontalOffset: Swift.Float, verticalOffset: Swift.Float, scale: Swift.Float, orientation: Swift.Int)
+  func setScanOption(scanexpiry: Swift.Bool, validateNumber: Swift.Bool, validateEpiry: Swift.Bool)
+  func setScanIDOption(scanIssuingDate: Swift.Bool, scanIssuingRegion: Swift.Bool, scanLicenseNumber: Swift.Bool, scanLicenseType: Swift.Bool, scanLicenseSerial: Swift.Bool)
+}
+public class OcrScanResult {
+  public var cardNumber: Foundation.NSMutableString
+  public var expirtyDate: Foundation.NSMutableString
+  public var cardImage: UIKit.UIImage?
+  public var result: Swift.Int
+  public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class OcrSdkDevice {
+  public static var shouldSetPixelFormat: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
