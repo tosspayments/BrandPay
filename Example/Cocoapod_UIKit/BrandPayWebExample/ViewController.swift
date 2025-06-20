@@ -105,6 +105,21 @@ extension BrandPayWebInterfaceDemoViewController: WebViewControllerType {
             
         }
     }
+    
+    // SDK 내부에서 발생하는 에러를 받을 수 있는 콜백입니다.
+    func onErrorOccurred(_ error: NSError) {
+        // 1. NSError → BrandpayBiometricAuthError 변환
+        guard let biometricAuthError = BrandpayBiometricAuthError.from(error) else {
+            return
+        }
+        
+        // 2. 확인할 수 있는 정보
+        let message   = biometricAuthError.errorDescription    // 에러 메시지
+        let traceId   = biometricAuthError.traceId             // 추적용 ID
+        let underlying = biometricAuthError.underlyingError     // 발생한 원본 내부 에러
+        
+        print(String(describing: biometricAuthError))
+    }
 }
 
 extension BrandPayWebInterfaceDemoViewController: WKNavigationDelegate {

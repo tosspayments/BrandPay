@@ -22404,55 +22404,62 @@
       "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BrandPayBase\/Sources\/Web\/WebScriptMessageHandler.swift",
       "kind": "StringLiteral",
       "offset": 2778,
+      "length": 8,
+      "value": "\"params\""
+    },
+    {
+      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BrandPayBase\/Sources\/Web\/WebScriptMessageHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2843,
       "length": 15,
       "value": "\"globalTraceId\""
     },
     {
       "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BrandPayBase\/Sources\/Web\/WebScriptMessageHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3076,
+      "offset": 3151,
       "length": 32,
       "value": "\"receive webView bridge message\""
     },
     {
       "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BrandPayBase\/Sources\/Web\/WebScriptMessageHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3354,
+      "offset": 3429,
       "length": 15,
       "value": "\"name: \""
     },
     {
       "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BrandPayBase\/Sources\/Web\/WebScriptMessageHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3368,
+      "offset": 3443,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BrandPayBase\/Sources\/Web\/WebScriptMessageHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3404,
+      "offset": 3479,
       "length": 42,
       "value": "\"webView bridge message handler not found\""
     },
     {
       "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BrandPayBase\/Sources\/Web\/WebScriptMessageHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3732,
+      "offset": 3807,
       "length": 16,
       "value": "\"ConnectPayAuth\""
     },
     {
       "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BrandPayBase\/Sources\/Web\/WebScriptMessageHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3798,
+      "offset": 3873,
       "length": 15,
       "value": "\"ConnectPayOcr\""
     },
     {
       "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BrandPayBase\/Sources\/Web\/WebScriptMessageHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3863,
+      "offset": 3938,
       "length": 25,
       "value": "\"connectPayWebViewAction\""
     }

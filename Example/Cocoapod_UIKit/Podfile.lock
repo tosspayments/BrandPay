@@ -1,8 +1,8 @@
 PODS:
-  - BrandPay/Biometric (1.0.0):
+  - BrandPay/Biometric (1.3.0):
     - BrandPay/Core
-  - BrandPay/Core (1.0.0)
-  - BrandPay/OCR (1.0.0):
+  - BrandPay/Core (1.3.0)
+  - BrandPay/OCR (1.3.0):
     - BrandPay/Core
 
 DEPENDENCIES:
@@ -14,8 +14,8 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  BrandPay: 17bc72c0c828cc09827524a8de46b5e4fd540bdd
+  BrandPay: a9b5f76c0051d95e06760b065c1ebe4f6a47a6ed
 
 PODFILE CHECKSUM: 7a8ca56c06160e43055f2215cdb2ef9a28af7e76
 
-COCOAPODS: 1.14.2
+COCOAPODS: 1.15.2
