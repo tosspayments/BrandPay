@@ -10,6 +10,11 @@ https://tosspayments.com
 # 브랜드페이 iOS SDK 
 브랜드페이 iOS SDK를 추가하고 메서드를 사용하는 방법을 알아봅니다.
 
+> ⚠️ **[Deprecated] Card OCR (2026-06-09)**
+> WebOCR 도입으로 기존 iOS Card OCR 기능(`FinCubeOcrSDK`, `OCRInterface`, `BrandPay/OCR`)은 deprecated 되었습니다.
+> 신규 통합 시 WebOCR 사용을 권장합니다.
+> OCR 관련 문의: [토스페이먼츠 개발자 커뮤니티](https://techchat.tosspayments.com/)
+
 ## 지원
 - Xcode 12.x
 - Swift 5.x
@@ -27,7 +32,7 @@ Library/BrandPayBase.xcframework
 # 생체인증 지원
 Library/BiometricInterface.xcframework
 
-# 카드 OCR 지원
+# 카드 OCR 지원 (Deprecated, 2026-06-09)
 Library/FinCubeOcrSDK.xcframework
 Library/OCRInterface.xcframework
 ```
@@ -45,7 +50,7 @@ use_frameworks!
 target 'YOUR_TARGET_NAME' do
     # 생체인증 지원
     pod 'BrandPay/Biometric'
-    # 카드 OCR 지원
+    # 카드 OCR 지원 (Deprecated, 2026-06-09)
     pod 'BrandPay/OCR'
 end
 ```
@@ -80,7 +85,8 @@ extension BrandPayWebInterface: WebViewControllerType {
         biometricMessageHandler.register(appBridge: UnregisterBiometricAuthAppBridge())
         webView.configuration.userContentController.add(biometricMessageHandler, name: "ConnectPayAuth")
         
-        // * OCR 기능은 앱 패키지 별로 flk license file 로 관리됩니다. 
+        // * [Deprecated, 2026-06-09] OCR 기능은 WebOCR 도입으로 deprecated 되었습니다.
+        // * 기존 OCR은 앱 패키지 별로 flk license file 로 관리됩니다. 
         let ocrMessageHandler = WebScriptMessageHandler()
         ocrMessageHandler.controller = self
         
