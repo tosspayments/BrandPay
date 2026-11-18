@@ -43,6 +43,9 @@ Library/OCRInterface.xcframework
 
 ### Cocoapods
 브랜드페이 iOS SDK는 Cocoapods 패키지로도 제공됩니다. 
+
+> CocoaPods trunk 가 2026-12-02 부터 읽기 전용이라 CocoaPods 로는 1.3.2 까지만 제공합니다. 이후 버전은 Swift Package Manager 로 설치하세요. ([CocoaPods 공지](https://blog.cocoapods.org/CocoaPods-Specs-Repo/))
+
 ```
 # Podfile
 use_frameworks!
