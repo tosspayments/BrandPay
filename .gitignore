@@ -3,3 +3,6 @@ vendor
 Example/Cocoapod_UIKit/Pods
 /Example/Cocoapod_UIKit/BrandPayExample.xcworkspace/xcuserdata
 xcschememanagement.plist
+
+# 앱 OCR 라이선스는 앱 번들 ID 별로 발급되므로 저장소에 넣지 않는다
+*.flk

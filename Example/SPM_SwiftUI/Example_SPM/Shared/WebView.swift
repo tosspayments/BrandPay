@@ -49,7 +49,12 @@ struct WebView: UIViewRepresentable {
         
         weak var webView: WKWebView?
         
+        // 브리지를 붙인 WebView 는 이 출처만 엽니다. 그 밖의 주소는 외부 브라우저나 앱으로 넘깁니다(README 의 WebView 탐색 제한).
+        // tosspayments.com 은 www.tosspayments.com 으로 리다이렉트하므로 둘 다 넣습니다.
+        let allowedOrigins: Set<String> = ["https://tosspayments.com", "https://www.tosspayments.com"]
+        
         func installAppBridges() {
+            // 1.4.0 부터는 같은 출처를 넘깁니다: try WebScriptMessageHandler(allowedOriginRules: allowedOrigins)
             let messageHandler = WebScriptMessageHandler()
             messageHandler.controller = self
             
@@ -71,6 +76,57 @@ struct WebView: UIViewRepresentable {
             webView?.evaluateJavaScriptSafely(javaScriptString, completionHandler: { (_, _) in
                 // do nothing
             })
+        }
+        
+        // "scheme://host[:port]" 를 만듭니다. 기본 포트는 적지 않습니다.
+        private func origin(of url: URL) -> String? {
+            guard let scheme = url.scheme?.lowercased(), let host = url.host?.lowercased() else {
+                return nil
+            }
+            let defaultPorts = ["https": 443, "http": 80]
+            if let port = url.port, port != defaultPorts[scheme] {
+                return "\(scheme)://\(host):\(port)"
+            }
+            return "\(scheme)://\(host)"
+        }
+        
+        func webView(
+            _ webView: WKWebView,
+            decidePolicyFor navigationAction: WKNavigationAction,
+            decisionHandler: @escaping (WKNavigationActionPolicy) -> Void
+        ) {
+            guard let url = navigationAction.request.url,
+                  let scheme = url.scheme?.lowercased() else {
+                decisionHandler(.cancel)
+                return
+            }
+            
+            // allowedOrigins 에 있는 출처는 WebView 에서 엽니다.
+            if let origin = origin(of: url), allowedOrigins.contains(origin) {
+                decisionHandler(.allow)
+                return
+            }
+            
+            // 카드사 앱, 은행 앱 같은 http, https 가 아닌 스킴은 막지 않고 앱으로 넘깁니다.
+            // about, data, blob 은 WebView 안에서 쓰는 주소라 넘기지 않습니다.
+            let webViewSchemes: Set<String> = ["http", "https", "about", "data", "blob"]
+            if !webViewSchemes.contains(scheme) {
+                UIApplication.shared.open(url)
+                decisionHandler(.cancel)
+                return
+            }
+            
+            // iframe 안의 탐색(브랜드페이 화면, 카드사 인증)은 이 검사에서 제외합니다.
+            if let frame = navigationAction.targetFrame, !frame.isMainFrame {
+                decisionHandler(.allow)
+                return
+            }
+            
+            // 메인 프레임에서 allowedOrigins 밖의 http, https 주소는 외부 브라우저에 넘깁니다.
+            if scheme == "http" || scheme == "https" {
+                UIApplication.shared.open(url)
+            }
+            decisionHandler(.cancel)
         }
     }
 }

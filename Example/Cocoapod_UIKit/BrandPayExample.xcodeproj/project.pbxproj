@@ -26,7 +26,6 @@
 		6A639F492B3087860091F619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A639F482B3087860091F619 /* Assets.xcassets */; };
 		6A639F4C2B3087860091F619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A639F4A2B3087860091F619 /* LaunchScreen.storyboard */; };
 		6A639F4F2B3087860091F619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A639F4E2B3087860091F619 /* main.m */; };
-		6A68E006278C099C00F42086 /* tosspayment_20220106.flk in Resources */ = {isa = PBXBuildFile; fileRef = 6A68E005278C099C00F42086 /* tosspayment_20220106.flk */; };
 		6A6A3B88275103D900021E50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3B87275103D900021E50 /* AppDelegate.swift */; };
 		6A6A3B8C275103D900021E50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3B8B275103D900021E50 /* ViewController.swift */; };
 		6A6A3B8F275103D900021E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6A3B8D275103D900021E50 /* Main.storyboard */; };
@@ -71,7 +70,6 @@
 		6A639F4B2B3087860091F619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A639F4D2B3087860091F619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A639F4E2B3087860091F619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6A68E005278C099C00F42086 /* tosspayment_20220106.flk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tosspayment_20220106.flk; sourceTree = "<group>"; };
 		6A6A3B85275103D900021E50 /* BrandPayWebExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandPayWebExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6A3B87275103D900021E50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A6A3B8B275103D900021E50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -233,7 +231,6 @@
 		6A68DFFE278C097600F42086 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				6A68E005278C099C00F42086 /* tosspayment_20220106.flk */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -312,6 +309,7 @@
 				6A639F362B3087850091F619 /* Sources */,
 				6A639F372B3087850091F619 /* Frameworks */,
 				6A639F382B3087850091F619 /* Resources */,
+				6AF1C0000000000000000002 /* Copy Local OCR License */,
 				6C87DBB65AC3D17F4B50D628 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -331,6 +329,7 @@
 				6A6A3B81275103D900021E50 /* Sources */,
 				6A6A3B82275103D900021E50 /* Frameworks */,
 				6A6A3B83275103D900021E50 /* Resources */,
+				6AF1C0000000000000000001 /* Copy Local OCR License */,
 				1BD0DD09FC5493B50516F53A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -422,7 +421,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A6A3B94275103DA00021E50 /* LaunchScreen.storyboard in Resources */,
-				6A68E006278C099C00F42086 /* tosspayment_20220106.flk in Resources */,
 				6A6A3B91275103DA00021E50 /* Assets.xcassets in Resources */,
 				6A6A3B8F275103D900021E50 /* Main.storyboard in Resources */,
 			);
@@ -586,6 +584,44 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		6AF1C0000000000000000001 /* Copy Local OCR License */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Local OCR License";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 저장소에 넣지 않는 OCR 라이선스 파일(.flk)을 앱 번들에 넣는다.\n# BrandPayWebExample/Assets 에 있는 파일만 넣고, 없으면 OCR 없이 빌드된다.\nDESTINATION=\"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\"\nfor FILE in \"$SRCROOT\"/BrandPayWebExample/Assets/*.flk; do\n  if [ -f \"$FILE\" ]; then\n    cp \"$FILE\" \"$DESTINATION/\"\n    echo \"copied $(basename \"$FILE\")\"\n  fi\ndone\n";
+		};
+		6AF1C0000000000000000002 /* Copy Local OCR License */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Local OCR License";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 저장소에 넣지 않는 OCR 라이선스 파일(.flk)을 앱 번들에 넣는다.\n# BrandPayWebExample/Assets 에 있는 파일만 넣고, 없으면 OCR 없이 빌드된다.\nDESTINATION=\"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\"\nfor FILE in \"$SRCROOT\"/BrandPayWebExample/Assets/*.flk; do\n  if [ -f \"$FILE\" ]; then\n    cp \"$FILE\" \"$DESTINATION/\"\n    echo \"copied $(basename \"$FILE\")\"\n  fi\ndone\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

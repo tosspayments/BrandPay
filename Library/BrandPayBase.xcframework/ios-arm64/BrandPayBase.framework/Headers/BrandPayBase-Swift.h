@@ -337,11 +337,11 @@ SWIFT_CLASS("_TtC12BrandPayBase15EncryptedString")
 
 
 
-
 @interface EncryptedString (SWIFT_EXTENSION(BrandPayBase))
 - (BOOL)isEqual:(id _Nullable)other SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, readonly) NSUInteger hash;
 @end
+
 
 
 
@@ -401,13 +401,13 @@ SWIFT_CLASS("_TtC12BrandPayBase10LogPayload")
 
 
 
+
 @interface NSData (SWIFT_EXTENSION(BrandPayBase))
 - (NSString * _Nonnull)toHexString SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)toHexStringWithIsLowerCased:(BOOL)isLowerCased SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)toStringWithEncoding:(NSUInteger)rawValue SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)toStringUsingUTF8Encoding SWIFT_WARN_UNUSED_RESULT;
 @end
-
 
 
 
@@ -459,9 +459,15 @@ SWIFT_CLASS("_TtC12BrandPayBase17SimpleHappyLogger")
 
 
 
+
 SWIFT_CLASS("_TtC12BrandPayBase23WebScriptMessageHandler")
 @interface WebScriptMessageHandler : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+/// 최상위 문서와 같은 출처의 프레임이면 https 가 아닌 페이지에서도 브리지를 처리하고, Xcode 콘솔에 경고를 남긴다.
+- (nonnull instancetype)init;
+/// 최상위 문서의 출처가 allowedOriginRules 중 하나와 맞을 때만 브리지를 처리한다. 맞지 않으면 웹에 기존 실패 콜백(onError)으로 응답한다.
+/// 규칙은 Android SDK 의 allowedOriginRules 와 같다. <code>https://shop.example.com</code>, <code>https://shop.example.com:8443</code> 형식이고, host 앞에 <code>*.</code> 를 붙이면 하위 도메인만 허용한다.
+/// 규칙이 비었거나 형식이 틀리면 오류를 던진다. Objective-C 에서는 initWithAllowedOriginRules:error: 다.
+- (nullable instancetype)initWithAllowedOriginRules:(NSSet<NSString *> * _Nonnull)allowedOriginRules error:(NSError * _Nullable * _Nullable)error;
 @property (nonatomic, copy) NSDictionary<NSString *, id <AppBridgeType>> * _Nonnull registeredAppBridges;
 @property (nonatomic, strong) id <WebViewControllerType> _Nullable controller;
 - (void)registerWithAppBridge:(id <AppBridgeType> _Nonnull)appBridge;

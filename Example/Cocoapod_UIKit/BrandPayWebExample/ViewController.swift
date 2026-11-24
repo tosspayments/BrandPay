@@ -25,7 +25,10 @@ final class BrandPayWebInterfaceDemoViewController: UIViewController {
         super.viewDidLoad()
 
         setupWebView()
+#if DEBUG
+        // 임의 URL 을 브리지가 붙은 WebView 로 여는 테스트 기능은 DEBUG 빌드에만 둔다.
         setupRightBarButton()
+#endif
         
         installAppBridges()
     }
@@ -41,9 +44,14 @@ final class BrandPayWebInterfaceDemoViewController: UIViewController {
         ])
         webView.navigationDelegate = self
         
+#if DEBUG
         let urlString = UserDefaults.standard.string(forKey: Constants.latestURL) ?? "https://tosspayments.com"
+#else
+        let urlString = "https://tosspayments.com"
+#endif
         webView.load(URLRequest(url: URL(string: urlString)!))
     }
+#if DEBUG
     private func setupRightBarButton() {
         navigationController?.navigationBar.isTranslucent = false
         let item = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(didTapRightBarButton(_:)))
@@ -68,7 +76,8 @@ final class BrandPayWebInterfaceDemoViewController: UIViewController {
         alertController.addAction(
             UIAlertAction(title: "확인", style: .default, handler: { [weak self] _ in
                 if let urlString = alertController.textFields?.first?.text,
-                   let url = URL(string: urlString) {
+                   let url = URL(string: urlString),
+                   url.scheme?.lowercased() == "https" {
                     UserDefaults.standard.set(urlString, forKey: Constants.latestURL)
                     self?.webView.load(URLRequest(url: url))
                 }
@@ -76,6 +85,7 @@ final class BrandPayWebInterfaceDemoViewController: UIViewController {
         )
         present(alertController, animated: true, completion: nil)
     }
+#endif
 }
 
 extension BrandPayWebInterfaceDemoViewController: WebViewControllerType {
@@ -97,7 +107,7 @@ extension BrandPayWebInterfaceDemoViewController: WebViewControllerType {
         webView.configuration.userContentController.add(messageHandler, name: "ConnectPayOcr")
         
         // Deprecated: ConnectPayAuth, ConnectPayOcr 두개의 javascript object 로 나뉘어졌음
-        webView.configuration.userContentController.add(messageHandler, name: "connectWebViewAction")
+        webView.configuration.userContentController.add(messageHandler, name: "connectPayWebViewAction")
     }
     
     func evaluateJavaScriptSafely(javaScriptString: String) {
