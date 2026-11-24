@@ -10,6 +10,8 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import os.log
+import os
 @objc public class CreateHappyLoggerParams : ObjectiveC.NSObject {
   final public let phase: BrandPayBase.Phase
   final public let baseUrl: Swift.String
@@ -571,7 +573,7 @@ extension BrandPayBase.TelNumberParser {
 extension WebKit.WKWebView {
   @_Concurrency.MainActor(unsafe) public func evaluateJavaScriptSafely(_ javaScriptString: Swift.String, completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
 }
-public var happyLogger: any BrandPayBase.HappyLogger
+public let happyLogger: any BrandPayBase.HappyLogger
 public protocol WebScriptMessageHandlerType : AnyObject {
   typealias Controller = BrandPayBase.WebViewControllerType
   var registeredAppBridges: [Swift.String : any BrandPayBase.AppBridgeType] { get set }
@@ -579,8 +581,9 @@ public protocol WebScriptMessageHandlerType : AnyObject {
   func register(appBridge: any BrandPayBase.AppBridgeType)
   func unregister(for name: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class WebScriptMessageHandler : ObjectiveC.NSObject, BrandPayBase.WebScriptMessageHandlerType {
-  @objc override dynamic public init()
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class WebScriptMessageHandler : ObjectiveC.NSObject, BrandPayBase.WebScriptMessageHandlerType {
+  @objc override convenience dynamic public init()
+  @objc convenience public init(allowedOriginRules: Swift.Set<Swift.String>) throws
   @objc public var registeredAppBridges: [Swift.String : any BrandPayBase.AppBridgeType]
   @objc public var controller: (any BrandPayBase.WebViewControllerType)?
   @objc public func register(appBridge: any BrandPayBase.AppBridgeType)

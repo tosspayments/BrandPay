@@ -12,6 +12,8 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import os.log
+import os
 public enum OCRInterfaceAsset {
   public static let icnIosClose: OCRInterface.OCRInterfaceImages
 }

@@ -4075,6 +4075,13 @@
       },
       {
         "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "Import",
         "name": "BrandPayBase",
         "printedName": "BrandPayBase",
         "declKind": "Import",
@@ -4517,6 +4524,13 @@
       },
       {
         "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "BiometricInterface"
+      },
+      {
+        "kind": "Import",
         "name": "BrandPayBase",
         "printedName": "BrandPayBase",
         "declKind": "Import",
@@ -4537,483 +4551,679 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 403,
       "length": 25,
       "value": "\"getBiometricAuthMethods\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
       "kind": "BooleanLiteral",
       "offset": 463,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
       "kind": "Array",
       "offset": 1023,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1056,
       "length": 29,
       "value": "\"'\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1080,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/GetBiometricAuthMethodsAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1083,
       "length": 4,
       "value": "\"'\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 389,
       "length": 18,
       "value": "\"hasBiometricAuth\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
       "kind": "BooleanLiteral",
       "offset": 442,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 832,
       "length": 23,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/HasBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 854,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 462,
       "length": 23,
       "value": "\"registerBiometricAuth\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
       "kind": "BooleanLiteral",
       "offset": 520,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 850,
       "length": 8,
       "value": "\"params\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 913,
       "length": 16,
       "value": "\"biometricToken\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1026,
       "length": 35,
       "value": "\"webView bridge message parse fail\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1098,
       "length": 34,
       "value": "\"missing biometricToken parameter\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
       "kind": "Array",
       "offset": 1500,
       "length": 11,
       "value": "[\"success\"]"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/RegisterBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1636,
       "length": 29,
       "value": "\"registerBiometricAuth error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 25,
       "value": "\"unregisterBiometricAuth\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
       "kind": "BooleanLiteral",
       "offset": 526,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
       "kind": "Array",
       "offset": 1014,
       "length": 8,
       "value": "[\"true\"]"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/UnregisterBiometricAuthAppBridge.swift",
       "kind": "Array",
       "offset": 1078,
       "length": 9,
       "value": "[\"false\"]"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 383,
       "length": 21,
       "value": "\"verifyBiometricAuth\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
       "kind": "BooleanLiteral",
       "offset": 439,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 808,
       "length": 8,
       "value": "\"params\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 872,
       "length": 9,
       "value": "\"modulus\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 931,
       "length": 10,
       "value": "\"exponent\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1039,
       "length": 35,
       "value": "\"webView bridge message parse fail\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1111,
       "length": 37,
       "value": "\"missing modulus, exponent parameter\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/AppBridge\/VerifyBiometricAuthAppBridge.swift",
       "kind": "StringLiteral",
-      "offset": 1840,
+      "offset": 2046,
       "length": 27,
       "value": "\"verifyBiometricAuth error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
       "kind": "StringLiteral",
       "offset": 493,
       "length": 21,
       "value": "\"생체인증 취소\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
       "kind": "StringLiteral",
       "offset": 556,
       "length": 21,
       "value": "\"생체인증 실패\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
       "kind": "StringLiteral",
       "offset": 620,
       "length": 34,
       "value": "\"생체인증 유효하지 않음\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
       "kind": "StringLiteral",
       "offset": 781,
       "length": 20,
       "value": "\"BIOMETRIC_CANCELED\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
       "kind": "StringLiteral",
       "offset": 843,
       "length": 18,
       "value": "\"BIOMETRIC_FAILED\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
       "kind": "StringLiteral",
       "offset": 904,
       "length": 19,
       "value": "\"BIOMETRIC_INVALID\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1187,
+      "offset": 1292,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1974,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
       "kind": "StringLiteral",
-      "offset": 1719,
+      "offset": 3113,
+      "length": 32,
+      "value": "\"biometric authentication error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3186,
+      "length": 65,
+      "value": "\"application did not become active in \""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3249,
+      "length": 1,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3674,
       "length": 59,
       "value": "\"getBiometricAuthMethods error, return fallback empty list\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5021,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
       "kind": "StringLiteral",
-      "offset": 3083,
+      "offset": 5421,
       "length": 9,
       "value": "\"Face ID\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
       "kind": "StringLiteral",
-      "offset": 3127,
+      "offset": 5465,
       "length": 10,
       "value": "\"Touch ID\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
       "kind": "StringLiteral",
-      "offset": 3166,
+      "offset": 5504,
       "length": 15,
       "value": "\"생체 인증\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8271,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticaionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8380,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
       "kind": "StringLiteral",
       "offset": 661,
       "length": 81,
       "value": "\" 상황이 지속적으로 발생할 경우 고객센터로 문의바랍니다.\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
       "kind": "StringLiteral",
       "offset": 799,
       "length": 84,
       "value": "\"생체인증을 취소하였습니다. 비밀번호로 계속 진행해 주세요.\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
       "kind": "StringLiteral",
       "offset": 933,
       "length": 45,
       "value": "\"비밀번호로 계속 진행해 주세요.\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
       "kind": "StringLiteral",
       "offset": 1029,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
       "kind": "StringLiteral",
       "offset": 1086,
       "length": 116,
       "value": "\"생체인증정보가 변경되었습니다. 비밀번호로 진행 후 다시 생체인증을 등록해주세요.\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationError.swift",
       "kind": "StringLiteral",
       "offset": 1243,
       "length": 34,
       "value": "\"오류가 발생하였습니다.\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "StringLiteral",
-      "offset": 570,
+      "offset": 1378,
       "length": 49,
       "value": "\"BioAuthCertificationService.isEnabledBioAuthKey\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1364,
-      "length": 24,
-      "value": "\"hasBiometricAuth error\""
+      "offset": 1810,
+      "length": 37,
+      "value": "\"com.tosspayments.brandpay.biometric\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1700,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1891,
+      "length": 16,
+      "value": "\"biometricToken\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 3144,
+      "offset": 3161,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "StringLiteral",
-      "offset": 3246,
+      "offset": 3376,
+      "length": 24,
+      "value": "\"hasBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3712,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 4166,
+      "length": 23,
+      "value": "\"registerBiometricAuth\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5008,
+      "length": 21,
+      "value": "\"verifyBiometricAuth\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5786,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5883,
       "length": 31,
       "value": "\"unregisterBiometricAuth error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "StringLiteral",
-      "offset": 4514,
+      "offset": 6835,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 6845,
+      "length": 5,
+      "value": "\" error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 6885,
+      "length": 41,
+      "value": "\"provider released during authentication\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 8705,
       "length": 27,
       "value": "\"verifyBiometricAuth error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "StringLiteral",
-      "offset": 4582,
+      "offset": 8769,
+      "length": 36,
+      "value": "\"biometry protected token read fail\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 9298,
+      "length": 27,
+      "value": "\"verifyBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 9362,
       "length": 30,
       "value": "\"token not exists in keychain\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "StringLiteral",
-      "offset": 5468,
+      "offset": 9870,
       "length": 27,
       "value": "\"verifyBiometricAuth error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "StringLiteral",
-      "offset": 5536,
+      "offset": 9934,
+      "length": 23,
+      "value": "\"token stringify error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10339,
+      "length": 45,
+      "value": "\"verifyBiometricAuth legacy token read error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10492,
+      "length": 25,
+      "value": "\"answered with new token\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11294,
+      "length": 33,
+      "value": "\"biometric token migration error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 12237,
+      "length": 27,
+      "value": "\"verifyBiometricAuth error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 12305,
       "length": 15,
       "value": "\"decrypt error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "StringLiteral",
-      "offset": 6082,
+      "offset": 12846,
       "length": 27,
       "value": "\"verifyBiometricAuth error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "StringLiteral",
-      "offset": 6150,
+      "offset": 12914,
       "length": 33,
       "value": "\"decrypted value stringify error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "StringLiteral",
-      "offset": 6453,
+      "offset": 13212,
       "length": 27,
       "value": "\"verifyBiometricAuth error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
       "kind": "StringLiteral",
-      "offset": 7382,
+      "offset": 14480,
       "length": 29,
       "value": "\"registerBiometricAuth error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/BiometricAuthentication\/BiometricAuthenticationProvider.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
       "kind": "StringLiteral",
-      "offset": 8044,
-      "length": 29,
-      "value": "\"registerBiometricAuth error\""
-    },
-    {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
-      "kind": "StringLiteral",
-      "offset": 2172,
+      "offset": 2199,
       "length": 28,
       "value": "\"KeychainService.data error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
       "kind": "StringLiteral",
-      "offset": 3605,
+      "offset": 3632,
       "length": 27,
       "value": "\"KeychainService.set error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
       "kind": "StringLiteral",
-      "offset": 4301,
+      "offset": 4370,
       "length": 34,
       "value": "\"KeychainService.deleteData error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
       "kind": "StringLiteral",
-      "offset": 5352,
+      "offset": 5491,
+      "length": 59,
+      "value": "\"KeychainService.setBiometryProtected access control error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "kind": "StringLiteral",
+      "offset": 6251,
+      "length": 44,
+      "value": "\"KeychainService.setBiometryProtected error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "kind": "StringLiteral",
+      "offset": 7436,
+      "length": 45,
+      "value": "\"KeychainService.biometryProtectedData error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8099,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8453,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8510,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "kind": "StringLiteral",
+      "offset": 8673,
+      "length": 30,
+      "value": "\"KeychainService.exists error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainService.swift",
+      "kind": "StringLiteral",
+      "offset": 9900,
       "length": 30,
       "value": "\"KeychainService.update error\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 6,
       "value": "\"copy\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
       "kind": "StringLiteral",
       "offset": 460,
       "length": 5,
       "value": "\"add\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
       "kind": "StringLiteral",
       "offset": 495,
       "length": 8,
       "value": "\"update\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/BiometricInterface\/Sources\/Keychain\/KeychainServiceError.swift",
       "kind": "StringLiteral",
       "offset": 533,
       "length": 8,

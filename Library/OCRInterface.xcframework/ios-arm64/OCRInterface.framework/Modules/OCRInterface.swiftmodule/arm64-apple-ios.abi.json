@@ -338,6 +338,13 @@
       },
       {
         "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "OCRInterface"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2811,1722 +2818,1764 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/Derived\/Sources\/Assets+OCRInterface.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/Derived\/Sources\/Assets+OCRInterface.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 15,
       "value": "\"icn-ios-close\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/Derived\/Sources\/Assets+OCRInterface.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/Derived\/Sources\/Assets+OCRInterface.swift",
       "kind": "StringLiteral",
       "offset": 1272,
       "length": 43,
       "value": "\"Unable to load image asset named \""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/Derived\/Sources\/Assets+OCRInterface.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/Derived\/Sources\/Assets+OCRInterface.swift",
       "kind": "StringLiteral",
       "offset": 1313,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/Config\/OCRConfig.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/Config\/OCRConfig.swift",
       "kind": "StringLiteral",
-      "offset": 241,
+      "offset": 255,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/Config\/OCRConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 369,
+      "value": "\"BrandPay 앱 카드 OCR(OCRInterface, FinCubeOcrSDK)은 deprecated 되었습니다. 기능은 지금처럼 동작하지만, 가급적 Web OCR 로 옮기는 것을 권장합니다. Web OCR 도 앱 OCR 처럼 별도 계약이 필요하니 담당 매니저나 토스페이먼츠 개발자 커뮤니티(https:\/\/developers.tosspayments.com\/go\/techchat)로 문의하세요.\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/Config\/OCRConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 12,
+      "value": "\"%{public}@\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/Config\/OCRConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1269,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/Config\/OCRConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1451,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 412,
       "length": 16,
       "value": "\"isOCRAvailable\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
       "kind": "BooleanLiteral",
       "offset": 463,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 839,
       "length": 6,
       "value": "\"true\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
       "kind": "StringLiteral",
-      "offset": 797,
+      "offset": 848,
       "length": 7,
       "value": "\"false\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 876,
       "length": 16,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/IsOCRAvailableAppBridge.swift",
       "kind": "StringLiteral",
-      "offset": 840,
+      "offset": 891,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 613,
       "length": 21,
       "value": "\"카드스캔 취소\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 676,
       "length": 21,
       "value": "\"카드스캔 실패\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 740,
       "length": 34,
       "value": "\"카드스캔 유효기간 만료\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 828,
       "length": 38,
       "value": "\"유효하지 않은 패키지 이름\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 909,
       "length": 72,
       "value": "\"카드 스캔 실행을 위해서 카메라 권한이 필요합니다.\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1108,
       "length": 14,
       "value": "\"OCR_CANCELED\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1195,
       "length": 12,
       "value": "\"OCR_FAILED\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1250,
       "length": 13,
       "value": "\"OCR_INVALID\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1444,
       "length": 13,
       "value": "\"scanOCRCard\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "BooleanLiteral",
       "offset": 1492,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 2214,
+      "length": 19,
+      "value": "\"scanOCRCard error\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 2270,
+      "length": 44,
+      "value": "\"no view controller to present card scanner\""
+    },
+    {
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 2065,
+      "offset": 2648,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "StringLiteral",
-      "offset": 2138,
+      "offset": 2721,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 2253,
+      "offset": 2836,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 2426,
+      "offset": 3009,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 2860,
+      "offset": 3413,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/ScanOCRCardAppBridge.swift",
       "kind": "StringLiteral",
       "offset": 1302,
       "length": 20,
       "value": "\"OCRInterface.ScanOCRCardAppBridge\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 397,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 661,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 693,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "StringLiteral",
       "offset": 816,
       "length": 8,
       "value": "\"뒤로\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1043,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1111,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1181,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1985,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2007,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2029,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "FloatLiteral",
       "offset": 2082,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "FloatLiteral",
       "offset": 2103,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "FloatLiteral",
       "offset": 2115,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2133,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2427,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2511,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2580,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2649,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2856,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3795,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4048,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4228,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4257,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4289,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4558,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4596,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4792,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4888,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 5082,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "StringLiteral",
       "offset": 5203,
       "length": 15,
       "value": "\"icn-ios-close\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5436,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5445,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5456,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5466,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OCRCardSnapshotViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 5655,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 731,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 776,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 810,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 835,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 864,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 903,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 958,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 1015,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 1061,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 1106,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 1151,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 1202,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 1250,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 1298,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 1344,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 1392,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 1440,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "StringLiteral",
       "offset": 1543,
       "length": 25,
       "value": "\"ocr.sdk.ios.videostream\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 1823,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "FloatLiteral",
       "offset": 1976,
       "length": 5,
       "value": "242.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "FloatLiteral",
       "offset": 1984,
       "length": 5,
       "value": "256.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "FloatLiteral",
       "offset": 1998,
       "length": 5,
       "value": "244.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "FloatLiteral",
       "offset": 2006,
       "length": 5,
       "value": "256.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "FloatLiteral",
       "offset": 2019,
       "length": 5,
       "value": "246.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "FloatLiteral",
       "offset": 2027,
       "length": 5,
       "value": "256.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 2041,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 2125,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 3108,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 3367,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 3557,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 3642,
       "length": 2,
       "value": "-3"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 4156,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 4450,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 4470,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 4896,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 4918,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "StringLiteral",
       "offset": 5070,
       "length": 16,
       "value": "\"adjustingFocus\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "StringLiteral",
       "offset": 5228,
       "length": 19,
       "value": "\"adjustingExposure\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "FloatLiteral",
       "offset": 5963,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "FloatLiteral",
       "offset": 5971,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "FloatLiteral",
       "offset": 6031,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 6096,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 6169,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 6215,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "StringLiteral",
       "offset": 6733,
       "length": 19,
       "value": "\"adjustingExposure\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "StringLiteral",
       "offset": 6803,
       "length": 16,
       "value": "\"adjustingFocus\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 7100,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 7242,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 7962,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 8344,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 8739,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 9062,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 10304,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "StringLiteral",
       "offset": 10332,
       "length": 16,
       "value": "\"adjustingFocus\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "StringLiteral",
       "offset": 10424,
       "length": 19,
       "value": "\"adjustingExposure\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 10779,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 10981,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 11036,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 11109,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "StringLiteral",
       "offset": 11226,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 11268,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 11294,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "StringLiteral",
       "offset": 11339,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "StringLiteral",
       "offset": 11432,
       "length": 10,
       "value": "\"%02d%02d\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "IntegerLiteral",
       "offset": 11484,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrCameraPreview.swift",
       "kind": "BooleanLiteral",
       "offset": 11941,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "FloatLiteral",
       "offset": 267,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "BooleanLiteral",
       "offset": 590,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 799,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "FloatLiteral",
       "offset": 809,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 851,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "FloatLiteral",
       "offset": 1103,
       "length": 5,
       "value": "0.893"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "FloatLiteral",
       "offset": 1150,
       "length": 4,
       "value": "0.63"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 1260,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 1310,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 1539,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 1549,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 1558,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "FloatLiteral",
       "offset": 1568,
       "length": 4,
       "value": "0.65"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 1661,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "FloatLiteral",
       "offset": 1671,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "BooleanLiteral",
       "offset": 1426,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 2472,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideLayer.swift",
       "kind": "FloatLiteral",
       "offset": 2482,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 21,
       "value": "\"세로카드 촬영\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "StringLiteral",
       "offset": 514,
       "length": 21,
       "value": "\"가로카드 촬영\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "FloatLiteral",
       "offset": 688,
       "length": 5,
       "value": "0.893"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "FloatLiteral",
       "offset": 737,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "FloatLiteral",
       "offset": 855,
       "length": 4,
       "value": "0.63"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "FloatLiteral",
       "offset": 903,
       "length": 7,
       "value": "1.57873"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "IntegerLiteral",
       "offset": 2336,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "StringLiteral",
       "offset": 2394,
       "length": 47,
       "value": "\"카드를 사각형에 맞게 놓아주세요\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "IntegerLiteral",
       "offset": 2472,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "IntegerLiteral",
       "offset": 2625,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "StringLiteral",
       "offset": 2731,
       "length": 51,
       "value": "\"체크카드, 신용카드 모두 가능합니다\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "IntegerLiteral",
       "offset": 2813,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "BooleanLiteral",
       "offset": 3659,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "BooleanLiteral",
       "offset": 3738,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "BooleanLiteral",
       "offset": 3809,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "IntegerLiteral",
       "offset": 4236,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "IntegerLiteral",
       "offset": 4349,
       "length": 2,
       "value": "-8"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "IntegerLiteral",
       "offset": 4596,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrGuideView.swift",
       "kind": "IntegerLiteral",
       "offset": 4701,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 391,
       "length": 16,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 632,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "BooleanLiteral",
       "offset": 995,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "BooleanLiteral",
       "offset": 1033,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 1069,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 1104,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "BooleanLiteral",
       "offset": 1554,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 2207,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 2233,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 2512,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 2537,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 2615,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 2621,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 2627,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 2887,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 2933,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 2980,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3035,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3086,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3135,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3186,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3231,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3276,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3323,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3371,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3420,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3469,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3556,
       "length": 20,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3575,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 3649,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 3664,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 3690,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3696,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 3740,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 3755,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 3781,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3787,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 3831,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 3846,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 3872,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3879,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 3923,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "IntegerLiteral",
       "offset": 3939,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3964,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 3992,
       "length": 21,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrScanResult.swift",
       "kind": "StringLiteral",
       "offset": 4012,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 303,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 358,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 402,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 477,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
       "kind": "StringLiteral",
       "offset": 658,
       "length": 9,
       "value": "\"iPhone2\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
       "kind": "StringLiteral",
       "offset": 808,
       "length": 12,
       "value": "\"hw.machine\""
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
       "kind": "BooleanLiteral",
       "offset": 990,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
       "kind": "BooleanLiteral",
       "offset": 1009,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkDevice.swift",
       "kind": "BooleanLiteral",
       "offset": 1245,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "FloatLiteral",
       "offset": 479,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "FloatLiteral",
       "offset": 515,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "FloatLiteral",
       "offset": 542,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "IntegerLiteral",
       "offset": 573,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "IntegerLiteral",
       "offset": 618,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "IntegerLiteral",
       "offset": 658,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "BooleanLiteral",
       "offset": 809,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "BooleanLiteral",
       "offset": 858,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "BooleanLiteral",
       "offset": 907,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "BooleanLiteral",
       "offset": 962,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "BooleanLiteral",
       "offset": 1014,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "BooleanLiteral",
       "offset": 1066,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "BooleanLiteral",
       "offset": 1116,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "BooleanLiteral",
       "offset": 1168,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "IntegerLiteral",
       "offset": 1215,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "IntegerLiteral",
       "offset": 1258,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "FloatLiteral",
       "offset": 3786,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "FloatLiteral",
       "offset": 3798,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "IntegerLiteral",
       "offset": 4242,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "BooleanLiteral",
       "offset": 4294,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "BooleanLiteral",
       "offset": 4366,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jh.yang\/Documents\/github\/ios\/ios-internal\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
+      "filePath": "\/Users\/sh.park\/api-scan\/ghe\/ios-internal\/worktrees\/release-1.4.0-main\/Workspace\/BrandPayCore\/OCRInterface\/Sources\/UI\/OcrSdkView.swift",
       "kind": "IntegerLiteral",
       "offset": 4419,
       "length": 1,

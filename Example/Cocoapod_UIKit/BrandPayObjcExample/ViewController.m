@@ -26,7 +26,10 @@ static NSString * const latestURL = @"LatestURL";
     [super viewDidLoad];
     
     [self setupWebView];
+#if DEBUG
+    // 임의 URL 을 브리지가 붙은 WebView 로 여는 테스트 기능은 DEBUG 빌드에만 둔다.
     [self setupRightBarButton];
+#endif
     
     [self installAppBridges];
 }
@@ -48,10 +51,15 @@ static NSString * const latestURL = @"LatestURL";
     [_webView setInspectable:true];
 #endif
     
+#if DEBUG
     NSString *urlString = [[NSUserDefaults standardUserDefaults] stringForKey:latestURL] ?: @"https://tosspayments.com";
+#else
+    NSString *urlString = @"https://tosspayments.com";
+#endif
     [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlString]]];
 }
 
+#if DEBUG
 - (void)setupRightBarButton {
     self.navigationController.navigationBar.translucent = NO;
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
@@ -83,7 +91,7 @@ static NSString * const latestURL = @"LatestURL";
                                                           UITextField *urlTextField = alertController.textFields.firstObject;
                                                           NSString *urlString = urlTextField.text;
                                                           NSURL *url = [NSURL URLWithString:urlString];
-                                                          if (url) {
+                                                          if (url && [url.scheme.lowercaseString isEqualToString:@"https"]) {
                                                               [[NSUserDefaults standardUserDefaults] setObject:urlString forKey:latestURL];
                                                               [weakSelf.webView loadRequest:[NSURLRequest requestWithURL:url]];
                                                           }
@@ -91,6 +99,7 @@ static NSString * const latestURL = @"LatestURL";
     
     [self presentViewController:alertController animated:YES completion:nil];
 }
+#endif
 
 - (void)webView:(WKWebView *)webView didFailProvisionalNavigation:(WKNavigation *)navigation withError:(NSError *)error {
     [self showAlert:error.localizedDescription];
@@ -128,7 +137,7 @@ static NSString * const latestURL = @"LatestURL";
     [_webView.configuration.userContentController addScriptMessageHandler:messageHandler name:@"ConnectPayOcr"];
     
     
-    [_webView.configuration.userContentController addScriptMessageHandler:messageHandler name:@"connectWebViewAction"];
+    [_webView.configuration.userContentController addScriptMessageHandler:messageHandler name:@"connectPayWebViewAction"];
 }
 
 - (void)evaluateJavaScriptSafelyWithJavaScriptString:(NSString * _Nonnull)javaScriptString {
